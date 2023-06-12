@@ -1,0 +1,6 @@
+Pillow>=8.1.1
+
+Scrapy~=2.9.0
+jieba~=0.42.1
+matplotlib~=3.7.1
+wordcloud~=1.9.2
