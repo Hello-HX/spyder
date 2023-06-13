@@ -3,10 +3,10 @@ import re
 import pandas as pd
 
 # 读取数据
-df = pd.read_csv('考研复试.csv', encoding='utf-8-sig')
+df = pd.read_csv('香港回归祖国25周年.csv', encoding='utf-8-sig')
 df = df['微博正文']
-df.to_csv('考研复试_整合.csv', index=False, encoding='utf-8-sig')
-df = pd.read_csv('考研复试_整合.csv', encoding='utf-8-sig')
+df.to_csv('香港回顾祖国25周年_整合.csv', index=False, encoding='utf-8-sig')
+df = pd.read_csv('香港回顾祖国25周年_整合.csv', encoding='utf-8-sig')
 
 
 # 分词
