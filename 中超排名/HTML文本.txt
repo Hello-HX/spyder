@@ -1,0 +1,3273 @@
+
+
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	
+        <title>2022中超积分榜-中超积分排行榜-球队排名-风暴体育</title>
+    
+
+	
+        <meta name="description" content="风暴体育中超页面为大家提供最新完整2022中超积分排行榜查询；2022中超积分榜数据，包括中超排行榜、排名表、积分数、2022中超排行榜等详细数据。" />
+    
+
+	
+        <meta name="keywords" content="中超积分榜,2022中超积分榜,2022中超球队排名" />
+    
+
+
+
+	<link rel="stylesheet" type="text/css" href="https://www.sportspress.cn/skin/css/common.css" />
+	<link rel="stylesheet" type="text/css" href="https://www.sportspress.cn/skin/css/zlk.css" />
+	<link rel="stylesheet" type="text/css" href="//at.alicdn.com/t/font_2121687_8r0cvr55uq.css" />
+	<link rel="stylesheet" href="https://www.sportspress.cn/skin/css/swiper.min.css">
+	<link rel="stylesheet" href="https://www.sportspress.cn/skin/css/data_match.css">
+    
+
+    
+
+    
+        <link rel="stylesheet" href="https://www.sportspress.cn/skin/css/data_integral.css">
+    
+
+
+
+	<script src="https://www.sportspress.cn/skin/js/jquery-3.3.1.min.js" type="text/javascript" charset="utf-8"></script>
+
+    
+    
+
+
+    
+    
+
+    
+    
+
+
+
+</head>
+
+<body>
+
+	<div class="header">
+		<div class="top">
+			<div class="content clearfix">
+				<a href="/" class="fl">全网最专业的体育报道 足球、篮球、电竞资讯一手掌握</a>
+				<div class="fr"><a href="javascript:void(0);" rel="nofollow"
+						onclick="SetHome(this,location.href);">设为首页</a> 丨 <a href="javascript:void(0);" rel="nofollow"
+						onclick="AddFavorite('我的网站',location.href)">收藏本站</a></div>
+			</div>
+		</div>
+		<div class="mid">
+			<div class="content clearfix">
+				<a class="logo fl" href="/">
+					<img src="https://www.sportspress.cn/skin/images/logo.png" alt="风暴体育">
+				</a>
+				<div class="search_box fr">
+					<div class="hotkey fl">
+						　<span class="tit fl">热门关键词：</span>
+						　<a href="https://www.sportspress.cn/plus/search.php?keyword=中国体育报" rel="nofollow">中国体育报</a>
+						　<a href="https://www.sportspress.cn/plus/search.php?keyword=曼联" rel="nofollow">曼联</a>
+						　<a href="https://www.sportspress.cn/plus/search.php?keyword=中国男篮" rel="nofollow">中国男篮</a>
+						　<a href="https://www.sportspress.cn/plus/search.php?keyword=科比" rel="nofollow">科比</a>
+					</div>
+					<form name="formsearch" action="https://www.sportspress.cn/plus/search.php">
+						<div class="search_bar fl clearfix">
+							<input type="hidden" name="pagesize" value="9">
+							<!--<input type="hidden" name="typeid" value="1,13,26">-->
+							<div class="txt_box"><input type="text" name="q" placeholder="请输入搜索的关键词"
+									id="search-keyword"></div>
+							<div class="btn_box"><input type="submit" class="search-submit" value="搜索"></div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="nav clearfix">
+			<div class="top_nav">
+				<div class="content">
+					<ul class="clearfix">
+						<li>
+							<div class="indiv"><a href="/" rel="nofollow">首页</a></div>
+							<div class="zhe"></div>
+						</li>
+						<li>
+							<div class="indiv"><a href="https://www.sportspress.cn/zq/">风暴足球</a></div>
+							<div class="zhe"></div>
+						</li>
+
+						<li>
+							<div class="indiv"><a href="https://www.sportspress.cn/database/">足球资料库</a></div>
+							<div class="zhe" style="top: -100%;"></div>
+						</li>
+						<li>
+							<div class="indiv"><a href="https://www.sportspress.cn/lq/">风暴篮球</a></div>
+							<div class="zhe" style="top: -100%;"></div>
+						</li>
+						<li>
+							<div class="indiv"><a href="https://www.sportspress.cn/dj/">风暴电竞</a></div>
+							<div class="zhe" style="top: -100%;"></div>
+						</li>
+
+						<li>
+							<div class="indiv"><a href="https://www.sportspress.cn/other/">综合体育</a></div>
+							<div class="zhe"></div>
+						</li>
+						<li>
+							<div class="indiv"><a href="https://www.sportspress.cn/topic/">合集专题</a></div>
+							<div class="zhe"></div>
+						</li>
+						<li>
+							<div class="indiv"><a href="https://www.sportspress.cn/wenda/">风暴问答</a></div>
+							<div class="zhe"></div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="son_nav">
+				<div class="content clearfix">
+
+					<ul class="sonitem">
+						<li><a href="https://www.sportspress.cn/premierleague/">英超</a></li>
+						<li><a href="https://www.sportspress.cn/uefa/">欧冠</a></li>
+						<li><a href="https://www.sportspress.cn/laliga/">西甲</a></li>
+						<li><a href="https://www.sportspress.cn/csl/">中超</a></li>
+						<li><a href="https://www.sportspress.cn/nba/">NBA</a></li>
+						<li><a href="https://www.sportspress.cn/cba/">CBA</a></li>
+						<li><a href="https://www.sportspress.cn/nl/">女篮</a></li>
+						<li><a href="https://www.sportspress.cn/lol/">英雄联盟</a></li>
+						<li><a href="https://www.sportspress.cn/pubg/">绝地求生</a></li>
+					</ul>
+					<ul class="sonitem" style="display: none;">
+
+						<li><a href="https://www.sportspress.cn/premierleague/">英超</a></li>
+
+						<li><a href="https://www.sportspress.cn/uefa/">欧冠</a></li>
+
+						<li><a href="https://www.sportspress.cn/laliga/">西甲</a></li>
+
+						<li><a href="https://www.sportspress.cn/bundesliga/">德甲</a></li>
+
+						<li><a href="https://www.sportspress.cn/seriea/">意甲</a></li>
+
+						<li><a href="https://www.sportspress.cn/csl/">中超</a></li>
+
+						<li><a href="https://www.sportspress.cn/ligue/">法甲</a></li>
+
+						<li><a href="https://www.sportspress.cn/gjzq/">国际足球</a></li>
+
+						<li><a href="https://www.sportspress.cn/zqtj/">足球图集</a></li>
+
+						<li><a href="https://www.sportspress.cn/video/zq/">足球视频</a></li>
+
+					</ul>
+
+					<ul class="sonitem" style="display: block;">
+					</ul>
+					<ul class="sonitem" style="display: none;">
+
+						<li><a href="https://www.sportspress.cn/nba/">NBA</a></li>
+
+						<li><a href="https://www.sportspress.cn/cba/">CBA</a></li>
+
+						<li><a href="https://www.sportspress.cn/nl/">女篮</a></li>
+
+						<li><a href="https://www.sportspress.cn/fiba/">国际篮球</a></li>
+
+						<li><a href="https://www.sportspress.cn/lqtj/">篮球图集</a></li>
+
+						<li><a href="https://www.sportspress.cn/video/lq/">篮球视频</a></li>
+
+					</ul>
+					<ul class="sonitem" style="display: none;">
+
+						<li><a href="https://www.sportspress.cn/dota/">DOTA2</a></li>
+
+						<li><a href="https://www.sportspress.cn/lol/">英雄联盟</a></li>
+
+						<li><a href="https://www.sportspress.cn/pubg/">绝地求生</a></li>
+
+						<li><a href="https://www.sportspress.cn/ow/">守望先锋</a></li>
+
+						<li><a href="https://www.sportspress.cn/king/">王者荣耀</a></li>
+
+						<li><a href="https://www.sportspress.cn/djtj/">电竞图集</a></li>
+
+					</ul>
+
+					<ul class="sonitem" style="display: none;">
+					</ul>
+					<ul class="sonitem" style="display: none;">
+						<li><a href="https://www.sportspress.cn/stopic/">足球专题</a></li>
+						<li><a href="https://www.sportspress.cn/btopic/">篮球专题</a></li>
+					</ul>
+					<ul class="sonitem" style="display: none;">
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="notice">
+			<div class="content clearfix">
+				<div class="icon fl"><img src="https://www.sportspress.cn/skin/images/notice_icon.png"></div>
+				<div class="txtslidebox fl">
+					<div class="txtslide">
+						<div class="txtMarquee-left">
+							<div class="bd">
+								<div class="tempWrap" style="overflow:hidden; position:relative; width:1903.124px">
+									<ul class="infoList"
+										style="width: 4282.03px; position: relative; overflow: hidden; padding: 0px; margin: 0px; left: -1261.78px;">
+										<li class="clone" style="float: left; width: 435.781px;"><a
+												href="https://www.sportspress.cn/nba/9374.html" target="_blank"><span
+													class="date">【NBA】 NBA官方回应詹姆斯炮轰！詹姆斯炮轰NBA不顾球员健康...</span></a></li>
+										<li style="float: left; width: 435.781px;"><a
+												href="https://www.sportspress.cn/fiba/9380.html" target="_blank"><span
+													class="date">【国际篮球】 中国男篮大胜中国台北男篮49分！沈梓捷受伤提前离场...</span></a></li>
+										<li style="float: left; width: 435.781px;"><a
+												href="https://www.sportspress.cn/euro2020/zqtj/9377.html"
+												target="_blank"><span class="date">【欧洲杯图集】 荷兰队全力备战第二轮欧洲杯小组赛
+													荷兰队能否提前晋级淘汰赛...</span></a></li>
+										<li style="float: left; width: 435.781px;"><a
+												href="https://www.sportspress.cn/euro2020/zqtj/9376.html"
+												target="_blank"><span class="date">【欧洲杯图集】 威尔士2-0击败土耳其
+													贝尔两度送出助攻...</span></a></li>
+										<li style="float: left; width: 435.781px;"><a
+												href="https://www.sportspress.cn/nba/9374.html" target="_blank"><span
+													class="date">【NBA】 NBA官方回应詹姆斯炮轰！詹姆斯炮轰NBA不顾球员健康...</span></a></li>
+
+										<li class="clone" style="float: left; width: 435.781px;"><a
+												href="https://www.sportspress.cn/fiba/9380.html" target="_blank"><span
+													class="date">【国际篮球】 中国男篮大胜中国台北男篮49分！沈梓捷受伤提前离场...</span></a></li>
+										<li class="clone" style="float: left; width: 435.781px;"><a
+												href="https://www.sportspress.cn/euro2020/zqtj/9377.html"
+												target="_blank"><span class="date">【欧洲杯图集】 荷兰队全力备战第二轮欧洲杯小组赛
+													荷兰队能否提前晋级淘汰赛...</span></a></li>
+										<li class="clone" style="float: left; width: 435.781px;"><a
+												href="https://www.sportspress.cn/euro2020/zqtj/9376.html"
+												target="_blank"><span class="date">【欧洲杯图集】 威尔士2-0击败土耳其
+													贝尔两度送出助攻...</span></a></li>
+										<li class="clone" style="float: left; width: 435.781px;"><a
+												href="https://www.sportspress.cn/nba/9374.html" target="_blank"><span
+													class="date">【NBA】 NBA官方回应詹姆斯炮轰！詹姆斯炮轰NBA不顾球员健康...</span></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+    <div class="special-wrap content">
+		<div class="item">
+                <div class="name">
+                    <div class="imgbox">
+                        <a href="https://www.sportspress.cn/database/calendar_2022-2023_1/">
+                            <img src="https://www.sportspress.cn/match_img/fb_1.jpg" alt="英超">
+                        </a>
+                    </div>
+
+                    <p>英超</p>
+                </div>
+                <div class="list">
+                    <a href="https://www.sportspress.cn/database/league_2021-2022_1/">赛程表</a>
+                    <a href="https://www.sportspress.cn/video/premierleague/">视频回顾</a>
+                    <a href="https://www.sportspress.cn/premierleague/">新闻资讯</a>
+                </div>
+            </div>
+        <div class="item">
+            <div class="name">
+                <div class="imgbox">
+                    <a href="https://www.sportspress.cn/database/calendar_2022-2023_42/">
+                        <img src="https://www.sportspress.cn/match_img/fb_42.jpg" alt="西甲">
+                    </a>
+                </div>
+
+                <p>西甲</p>
+            </div>
+            <div class="list">
+                <a href="https://www.sportspress.cn/database/league_2022-2023_42/">赛程表</a>
+                <a href="https://www.sportspress.cn/video/laliga/">视频回顾</a>
+                <a href="https://www.sportspress.cn/laliga/">新闻资讯</a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="name">
+                <div class="imgbox">
+                    <a href="https://www.sportspress.cn/database/calendar_2022-2023_31/">
+                        <img src="https://www.sportspress.cn/match_img/fb_31.jpg" alt="意甲">
+                    </a>
+                </div>
+
+                <p>意甲</p>
+            </div>
+            <div class="list">
+                <a href="https://www.sportspress.cn/database/league_2022-2023_31/">赛程表</a>
+                <a href="https://www.sportspress.cn/video/seriea/">视频回顾</a>
+                <a href="https://www.sportspress.cn/seriea/">新闻资讯</a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="name">
+                <div class="imgbox">
+                    <a href="https://www.sportspress.cn/database/calendar_2022-2023_51/">
+                        <img src="https://www.sportspress.cn/match_img/fb_51.jpg" alt="德甲">
+                    </a>
+                </div>
+
+                <p>德甲</p>
+            </div>
+            <div class="list">
+                <a href="https://www.sportspress.cn/database/league_2022-2023_51/">赛程表</a>
+                <a href="https://www.sportspress.cn/video/bundesliga/">视频回顾</a>
+                <a href="https://www.sportspress.cn/bundesliga/">新闻资讯</a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="name">
+                <div class="imgbox">
+                    <a href="https://www.sportspress.cn/database/calendar_2022-2023_64/">
+                        <img src="https://www.sportspress.cn/match_img/fb_64.jpg" alt="法甲">
+                    </a>
+                </div>
+
+                <p>法甲</p>
+            </div>
+            <div class="list">
+                <a href="https://www.sportspress.cn/database/league_2022-2023_64/">赛程表</a>
+                <a href="https://www.sportspress.cn/video/ligue/">视频回顾</a>
+                <a href="https://www.sportspress.cn/ligue/">新闻资讯</a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="name">
+                <div class="imgbox">
+                    <a href="https://www.sportspress.cn/database/calendar_2022-2023_640/">
+                        <img src="https://www.sportspress.cn/match_img/fb_640.jpg" alt="欧冠">
+                    </a>
+                </div>
+
+                <p>欧冠</p>
+            </div>
+            <div class="list">
+                <a href="https://www.sportspress.cn/database/cupmatch_2022-2023_640/">赛程表</a>
+                <a href="https://www.sportspress.cn/uefa/video/">视频回顾</a>
+                <a href="https://www.sportspress.cn/uefa/">新闻资讯</a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="name">
+                <div class="imgbox">
+                    <a href="https://www.sportspress.cn/database/calendar_2019-2021_639/">
+                        <img src="https://www.sportspress.cn/match_img/fb_639.jpg" alt="欧洲杯">
+                    </a>
+                </div>
+
+                <p>欧洲杯</p>
+            </div>
+            <div class="list">
+                <a href="https://www.sportspress.cn/database/cupmatch_2019-2021_639/">赛程表</a>
+                <a href="https://www.sportspress.cn/euro2020/video/">视频回顾</a>
+                <a href="https://www.sportspress.cn/euro2020/">新闻资讯</a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="name">
+                <div class="imgbox">
+                    <a href="https://www.sportspress.cn/database/calendar_2021_740/">
+                        <img src="https://www.sportspress.cn/match_img/fb_740.jpg" alt="美洲杯">
+                    </a>
+                </div>
+
+                <p>美洲杯</p>
+            </div>
+            <div class="list">
+                <a href="https://www.sportspress.cn/database/cupmatch_2021_740/">赛程表</a>
+                <a href="https://www.sportspress.cn/copaamerica/video/">视频回顾</a>
+                <a href="https://www.sportspress.cn/copaamerica/">新闻资讯</a>
+            </div>
+        </div>
+	</div>
+
+	
+
+
+        <div class="location content">您当前的位置：<a href="/">风暴体育</a> &gt; <a
+                href="https://www.sportspress.cn/database/">足球资料库</a>&gt; <a
+                href="https://www.sportspress.cn/database/integral_2022_378/">中超</a>
+        </div>
+
+        <div class="match-tab content">
+            <div class="title">
+                <div class="link">
+                    <a href="https://www.sportspress.cn/database/calendar_2022_378/" >中超</a>
+                    <a href="https://www.sportspress.cn/database/schedule_2022_378/">2022</a>
+                    <a href="https://www.sportspress.cn/database/subleague_2022_378/" >赛程表</a>
+                    <a href="https://www.sportspress.cn/database/integral_2022_378/" class="on">积分榜</a>
+                    <a href="https://www.sportspress.cn/database/archer_2022_378/" >射手榜</a>
+                    <a href="https://www.sportspress.cn/database/team_2022_378/" >球队名单</a>
+
+                </div>
+            </div>
+
+            <div class="details">
+                <div class="img-box">
+                    <img src="https://www.sportspress.cn/match_img/fb_378.jpg" alt="中超">
+                </div>
+                <div class="detail">
+                    <div class="row1">
+                        <h1>中超</h1>
+                        <div class="function">
+                            <p>选择赛季：</p>
+                            <select onchange="top.location=this.value;">
+                                
+                                    
+                                        <option  value="https://www.sportspress.cn/database/integral_2022_378/">2022</option>
+                                    
+
+                                    
+                                
+                                    
+
+                                    
+                                        <option  value="https://www.sportspress.cn/database/integral_2021_378/">2021</option>
+                                    
+                                
+                                    
+
+                                    
+                                        <option  value="https://www.sportspress.cn/database/integral_2020_378/">2020</option>
+                                    
+                                
+                                    
+
+                                    
+                                        <option  value="https://www.sportspress.cn/database/integral_2019_378/">2019</option>
+                                    
+                                
+                                    
+
+                                    
+                                        <option  value="https://www.sportspress.cn/database/integral_2018_378/">2018</option>
+                                    
+                                
+                                    
+
+                                    
+                                        <option  value="https://www.sportspress.cn/database/integral_2017_378/">2017</option>
+                                    
+                                
+                                    
+
+                                    
+                                        <option  value="https://www.sportspress.cn/database/integral_2016_378/">2016</option>
+                                    
+                                
+                                    
+
+                                    
+                                        <option  value="https://www.sportspress.cn/database/integral_2015_378/">2015</option>
+                                    
+                                
+                                    
+
+                                    
+                                        <option  value="https://www.sportspress.cn/database/integral_2014_378/">2014</option>
+                                    
+                                
+                                    
+
+                                    
+                                        <option  value="https://www.sportspress.cn/database/integral_2013_378/">2013</option>
+                                    
+                                
+                                    
+
+                                    
+                                        <option  value="https://www.sportspress.cn/database/integral_2012_378/">2012</option>
+                                    
+                                
+                                    
+
+                                    
+                                        <option  value="https://www.sportspress.cn/database/integral_2011_378/">2011</option>
+                                    
+                                
+                                    
+
+                                    
+                                        <option  value="https://www.sportspress.cn/database/integral_2010_378/">2010</option>
+                                    
+                                
+                                    
+
+                                    
+                                        <option  value="https://www.sportspress.cn/database/integral_2009_378/">2009</option>
+                                    
+                                
+                                    
+
+                                    
+                                        <option  value="https://www.sportspress.cn/database/integral_2008_378/">2008</option>
+                                    
+                                
+                                    
+
+                                    
+                                        <option  value="https://www.sportspress.cn/database/integral_2007_378/">2007</option>
+                                    
+                                
+                                    
+
+                                    
+                                        <option  value="https://www.sportspress.cn/database/integral_2006_378/">2006</option>
+                                    
+                                
+                                    
+
+                                    
+                                        <option  value="https://www.sportspress.cn/database/integral_2005_378/">2005</option>
+                                    
+                                
+                                    
+
+                                    
+                                        <option  value="https://www.sportspress.cn/database/integral_2004_378/">2004</option>
+                                    
+                                
+
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row2">2022中国超级联赛积分排行榜，2022赛季中超各球队比赛胜负、积分排行榜、球队排名。</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="super-content content">
+            <div class="min-wrap">
+			<div class="integral-wrap ">
+				<div class="integral-tab">
+					<div class="item on">中超总积分榜</div>
+					<div class="item">中超主场积分</div>
+					<div class="item">中超客场积分</div>
+					<div class="item">中超半场积分</div>
+					<div class="item">半场主场积分</div>
+					<div class="item">半场客场积分</div>
+				</div>
+
+
+
+
+
+				<div class="int-cont">
+                    
+                        
+
+                            <div class="integral-content on">
+                            <div class="row1">
+                                <div class="item">排名</div>
+                                <div class="item">球队名</div>
+                                <div class="item">赛</div>
+                                <div class="item">胜</div>
+                                <div class="item">平</div>
+                                <div class="item">负</div>
+                                <div class="item">得</div>
+                                <div class="item">失</div>
+                                <div class="item">净</div>
+                                <div class="item">胜%</div>
+                                <div class="item">平%</div>
+                                <div class="item">负%</div>
+                                <div class="item">均得</div>
+                                <div class="item">均失</div>
+                                <div class="item">积分</div>
+
+
+
+                            </div>
+                            
+                                <div class="row1 row2 color_1">
+                                    <div class="item">1</div>
+                                    <div class="item">武汉三镇</div>
+                                    <div class="item">34</div>
+                                    <div class="item">25</div>
+                                    <div class="item">3</div>
+                                    <div class="item">6</div>
+                                    <div class="item">91</div>
+                                    <div class="item">28</div>
+                                    <div class="item">63</div>
+                                    <div class="item">73.5%</div>
+                                    <div class="item">8.8%</div>
+                                    <div class="item">17.6%</div>
+                                    <div class="item">2.68</div>
+                                    <div class="item">0.82</div>
+                                    <div class="item">78</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                                </div>
+                            
+                                <div class="row1 row2 color_1">
+                                    <div class="item">2</div>
+                                    <div class="item">山东泰山</div>
+                                    <div class="item">34</div>
+                                    <div class="item">25</div>
+                                    <div class="item">3</div>
+                                    <div class="item">6</div>
+                                    <div class="item">87</div>
+                                    <div class="item">29</div>
+                                    <div class="item">58</div>
+                                    <div class="item">73.5%</div>
+                                    <div class="item">8.8%</div>
+                                    <div class="item">17.6%</div>
+                                    <div class="item">2.56</div>
+                                    <div class="item">0.85</div>
+                                    <div class="item">78</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                                </div>
+                            
+                                <div class="row1 row2 color_1">
+                                    <div class="item">3</div>
+                                    <div class="item">浙江队</div>
+                                    <div class="item">34</div>
+                                    <div class="item">18</div>
+                                    <div class="item">11</div>
+                                    <div class="item">5</div>
+                                    <div class="item">64</div>
+                                    <div class="item">28</div>
+                                    <div class="item">36</div>
+                                    <div class="item">52.9%</div>
+                                    <div class="item">32.4%</div>
+                                    <div class="item">14.7%</div>
+                                    <div class="item">1.88</div>
+                                    <div class="item">0.82</div>
+                                    <div class="item">65</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                                </div>
+                            
+                                <div class="row1 row2 color_1">
+                                    <div class="item">4</div>
+                                    <div class="item">上海海港</div>
+                                    <div class="item">34</div>
+                                    <div class="item">20</div>
+                                    <div class="item">5</div>
+                                    <div class="item">9</div>
+                                    <div class="item">55</div>
+                                    <div class="item">25</div>
+                                    <div class="item">30</div>
+                                    <div class="item">58.8%</div>
+                                    <div class="item">14.7%</div>
+                                    <div class="item">26.5%</div>
+                                    <div class="item">1.62</div>
+                                    <div class="item">0.74</div>
+                                    <div class="item">65</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                                </div>
+                            
+                                <div class="row1 row2 color_1">
+                                    <div class="item">5</div>
+                                    <div class="item">成都蓉城</div>
+                                    <div class="item">34</div>
+                                    <div class="item">18</div>
+                                    <div class="item">11</div>
+                                    <div class="item">5</div>
+                                    <div class="item">49</div>
+                                    <div class="item">28</div>
+                                    <div class="item">21</div>
+                                    <div class="item">52.9%</div>
+                                    <div class="item">32.4%</div>
+                                    <div class="item">14.7%</div>
+                                    <div class="item">1.44</div>
+                                    <div class="item">0.82</div>
+                                    <div class="item">65</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                                </div>
+                            
+                                <div class="row1 row2 color_1">
+                                    <div class="item">6</div>
+                                    <div class="item">河南嵩山龙门</div>
+                                    <div class="item">34</div>
+                                    <div class="item">17</div>
+                                    <div class="item">8</div>
+                                    <div class="item">9</div>
+                                    <div class="item">60</div>
+                                    <div class="item">32</div>
+                                    <div class="item">28</div>
+                                    <div class="item">50.0%</div>
+                                    <div class="item">23.5%</div>
+                                    <div class="item">26.5%</div>
+                                    <div class="item">1.76</div>
+                                    <div class="item">0.94</div>
+                                    <div class="item">59</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                                </div>
+                            
+                                <div class="row1 row2 color_1">
+                                    <div class="item">7</div>
+                                    <div class="item">北京国安</div>
+                                    <div class="item">34</div>
+                                    <div class="item">17</div>
+                                    <div class="item">7</div>
+                                    <div class="item">10</div>
+                                    <div class="item">57</div>
+                                    <div class="item">49</div>
+                                    <div class="item">8</div>
+                                    <div class="item">50.0%</div>
+                                    <div class="item">20.6%</div>
+                                    <div class="item">29.4%</div>
+                                    <div class="item">1.68</div>
+                                    <div class="item">1.44</div>
+                                    <div class="item">58</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                                </div>
+                            
+                                <div class="row1 row2 color_1">
+                                    <div class="item">8</div>
+                                    <div class="item">天津津门虎</div>
+                                    <div class="item">34</div>
+                                    <div class="item">14</div>
+                                    <div class="item">7</div>
+                                    <div class="item">13</div>
+                                    <div class="item">45</div>
+                                    <div class="item">42</div>
+                                    <div class="item">3</div>
+                                    <div class="item">41.2%</div>
+                                    <div class="item">20.6%</div>
+                                    <div class="item">38.2%</div>
+                                    <div class="item">1.32</div>
+                                    <div class="item">1.24</div>
+                                    <div class="item">49</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                                </div>
+                            
+                                <div class="row1 row2 color_1">
+                                    <div class="item">9</div>
+                                    <div class="item">梅州客家</div>
+                                    <div class="item">34</div>
+                                    <div class="item">14</div>
+                                    <div class="item">7</div>
+                                    <div class="item">13</div>
+                                    <div class="item">43</div>
+                                    <div class="item">41</div>
+                                    <div class="item">2</div>
+                                    <div class="item">41.2%</div>
+                                    <div class="item">20.6%</div>
+                                    <div class="item">38.2%</div>
+                                    <div class="item">1.26</div>
+                                    <div class="item">1.21</div>
+                                    <div class="item">49</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                                </div>
+                            
+                                <div class="row1 row2 color_1">
+                                    <div class="item">10</div>
+                                    <div class="item">上海申花</div>
+                                    <div class="item">34</div>
+                                    <div class="item">14</div>
+                                    <div class="item">11</div>
+                                    <div class="item">9</div>
+                                    <div class="item">42</div>
+                                    <div class="item">34</div>
+                                    <div class="item">8</div>
+                                    <div class="item">41.2%</div>
+                                    <div class="item">32.4%</div>
+                                    <div class="item">26.5%</div>
+                                    <div class="item">1.24</div>
+                                    <div class="item">1</div>
+                                    <div class="item">47</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                                </div>
+                            
+                                <div class="row1 row2 color_1">
+                                    <div class="item">11</div>
+                                    <div class="item">大连人</div>
+                                    <div class="item">34</div>
+                                    <div class="item">12</div>
+                                    <div class="item">9</div>
+                                    <div class="item">13</div>
+                                    <div class="item">49</div>
+                                    <div class="item">53</div>
+                                    <div class="item">-4</div>
+                                    <div class="item">35.3%</div>
+                                    <div class="item">26.5%</div>
+                                    <div class="item">38.2%</div>
+                                    <div class="item">1.44</div>
+                                    <div class="item">1.56</div>
+                                    <div class="item">45</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                                </div>
+                            
+                                <div class="row1 row2 color_1">
+                                    <div class="item">12</div>
+                                    <div class="item">长春亚泰</div>
+                                    <div class="item">34</div>
+                                    <div class="item">11</div>
+                                    <div class="item">11</div>
+                                    <div class="item">12</div>
+                                    <div class="item">49</div>
+                                    <div class="item">50</div>
+                                    <div class="item">-1</div>
+                                    <div class="item">32.4%</div>
+                                    <div class="item">32.4%</div>
+                                    <div class="item">35.3%</div>
+                                    <div class="item">1.44</div>
+                                    <div class="item">1.47</div>
+                                    <div class="item">44</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                                </div>
+                            
+                                <div class="row1 row2 color_1">
+                                    <div class="item">13</div>
+                                    <div class="item">沧州雄狮</div>
+                                    <div class="item">34</div>
+                                    <div class="item">11</div>
+                                    <div class="item">11</div>
+                                    <div class="item">12</div>
+                                    <div class="item">47</div>
+                                    <div class="item">51</div>
+                                    <div class="item">-4</div>
+                                    <div class="item">32.4%</div>
+                                    <div class="item">32.4%</div>
+                                    <div class="item">35.3%</div>
+                                    <div class="item">1.38</div>
+                                    <div class="item">1.5</div>
+                                    <div class="item">44</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                                </div>
+                            
+                                <div class="row1 row2 color_1">
+                                    <div class="item">14</div>
+                                    <div class="item">深圳队</div>
+                                    <div class="item">34</div>
+                                    <div class="item">9</div>
+                                    <div class="item">3</div>
+                                    <div class="item">22</div>
+                                    <div class="item">29</div>
+                                    <div class="item">74</div>
+                                    <div class="item">-45</div>
+                                    <div class="item">26.5%</div>
+                                    <div class="item">8.8%</div>
+                                    <div class="item">64.7%</div>
+                                    <div class="item">0.85</div>
+                                    <div class="item">2.18</div>
+                                    <div class="item">30</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                                </div>
+                            
+                                <div class="row1 row2 color_1">
+                                    <div class="item">15</div>
+                                    <div class="item">广州城</div>
+                                    <div class="item">34</div>
+                                    <div class="item">6</div>
+                                    <div class="item">5</div>
+                                    <div class="item">23</div>
+                                    <div class="item">32</div>
+                                    <div class="item">62</div>
+                                    <div class="item">-30</div>
+                                    <div class="item">17.6%</div>
+                                    <div class="item">14.7%</div>
+                                    <div class="item">67.6%</div>
+                                    <div class="item">0.94</div>
+                                    <div class="item">1.82</div>
+                                    <div class="item">23</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                                </div>
+                            
+                                <div class="row1 row2 color_1">
+                                    <div class="item">16</div>
+                                    <div class="item">武汉队</div>
+                                    <div class="item">34</div>
+                                    <div class="item">8</div>
+                                    <div class="item">4</div>
+                                    <div class="item">22</div>
+                                    <div class="item">34</div>
+                                    <div class="item">71</div>
+                                    <div class="item">-37</div>
+                                    <div class="item">23.5%</div>
+                                    <div class="item">11.8%</div>
+                                    <div class="item">64.7%</div>
+                                    <div class="item">1</div>
+                                    <div class="item">2.09</div>
+                                    <div class="item">19</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                                </div>
+                            
+                                <div class="row1 row2 color_1">
+                                    <div class="item">17</div>
+                                    <div class="item">广州队</div>
+                                    <div class="item">34</div>
+                                    <div class="item">3</div>
+                                    <div class="item">8</div>
+                                    <div class="item">23</div>
+                                    <div class="item">24</div>
+                                    <div class="item">63</div>
+                                    <div class="item">-39</div>
+                                    <div class="item">8.8%</div>
+                                    <div class="item">23.5%</div>
+                                    <div class="item">67.6%</div>
+                                    <div class="item">0.71</div>
+                                    <div class="item">1.85</div>
+                                    <div class="item">17</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                                </div>
+                            
+                                <div class="row1 row2 color_1">
+                                    <div class="item">18</div>
+                                    <div class="item">河北队</div>
+                                    <div class="item">34</div>
+                                    <div class="item">2</div>
+                                    <div class="item">0</div>
+                                    <div class="item">32</div>
+                                    <div class="item">18</div>
+                                    <div class="item">115</div>
+                                    <div class="item">-97</div>
+                                    <div class="item">5.9%</div>
+                                    <div class="item">0.0%</div>
+                                    <div class="item">94.1%</div>
+                                    <div class="item">0.53</div>
+                                    <div class="item">3.38</div>
+                                    <div class="item">-3</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                                </div>
+                            
+                        </div>
+                        
+
+
+                    
+                        
+
+                            <div class="integral-content">
+                            <div class="row1">
+                                <div class="item">排名</div>
+                                <div class="item">球队名</div>
+                                <div class="item">赛</div>
+                                <div class="item">胜</div>
+                                <div class="item">平</div>
+                                <div class="item">负</div>
+                                <div class="item">得</div>
+                                <div class="item">失</div>
+                                <div class="item">净</div>
+                                <div class="item">胜%</div>
+                                <div class="item">平%</div>
+                                <div class="item">负%</div>
+                                <div class="item">均得</div>
+                                <div class="item">均失</div>
+                                <div class="item">积分</div>
+
+                            </div>
+
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">1</div>
+                                    <div class="item">山东泰山</div>
+                                    <div class="item">17</div>
+                                    <div class="item">15</div>
+                                    <div class="item">1</div>
+                                    <div class="item">1</div>
+                                    <div class="item">52</div>
+                                    <div class="item">7</div>
+                                    <div class="item">45</div>
+                                    <div class="item">88.2%</div>
+                                    <div class="item">5.9%</div>
+                                    <div class="item">5.9%</div>
+                                    <div class="item">3.06</div>
+                                    <div class="item">0.41</div>
+                                    <div class="item">46</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">2</div>
+                                    <div class="item">武汉三镇</div>
+                                    <div class="item">17</div>
+                                    <div class="item">12</div>
+                                    <div class="item">1</div>
+                                    <div class="item">4</div>
+                                    <div class="item">55</div>
+                                    <div class="item">18</div>
+                                    <div class="item">37</div>
+                                    <div class="item">70.6%</div>
+                                    <div class="item">5.9%</div>
+                                    <div class="item">23.5%</div>
+                                    <div class="item">3.24</div>
+                                    <div class="item">1.06</div>
+                                    <div class="item">37</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">3</div>
+                                    <div class="item">浙江队</div>
+                                    <div class="item">17</div>
+                                    <div class="item">11</div>
+                                    <div class="item">4</div>
+                                    <div class="item">2</div>
+                                    <div class="item">32</div>
+                                    <div class="item">10</div>
+                                    <div class="item">22</div>
+                                    <div class="item">64.7%</div>
+                                    <div class="item">23.5%</div>
+                                    <div class="item">11.8%</div>
+                                    <div class="item">1.88</div>
+                                    <div class="item">0.59</div>
+                                    <div class="item">37</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">4</div>
+                                    <div class="item">上海海港</div>
+                                    <div class="item">17</div>
+                                    <div class="item">11</div>
+                                    <div class="item">2</div>
+                                    <div class="item">4</div>
+                                    <div class="item">31</div>
+                                    <div class="item">10</div>
+                                    <div class="item">21</div>
+                                    <div class="item">64.7%</div>
+                                    <div class="item">11.8%</div>
+                                    <div class="item">23.5%</div>
+                                    <div class="item">1.82</div>
+                                    <div class="item">0.59</div>
+                                    <div class="item">35</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">5</div>
+                                    <div class="item">成都蓉城</div>
+                                    <div class="item">17</div>
+                                    <div class="item">9</div>
+                                    <div class="item">7</div>
+                                    <div class="item">1</div>
+                                    <div class="item">33</div>
+                                    <div class="item">14</div>
+                                    <div class="item">19</div>
+                                    <div class="item">52.9%</div>
+                                    <div class="item">41.2%</div>
+                                    <div class="item">5.9%</div>
+                                    <div class="item">1.94</div>
+                                    <div class="item">0.82</div>
+                                    <div class="item">34</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">6</div>
+                                    <div class="item">河南嵩山龙门</div>
+                                    <div class="item">17</div>
+                                    <div class="item">10</div>
+                                    <div class="item">2</div>
+                                    <div class="item">5</div>
+                                    <div class="item">34</div>
+                                    <div class="item">17</div>
+                                    <div class="item">17</div>
+                                    <div class="item">58.8%</div>
+                                    <div class="item">11.8%</div>
+                                    <div class="item">29.4%</div>
+                                    <div class="item">2</div>
+                                    <div class="item">1</div>
+                                    <div class="item">32</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">7</div>
+                                    <div class="item">梅州客家</div>
+                                    <div class="item">17</div>
+                                    <div class="item">9</div>
+                                    <div class="item">3</div>
+                                    <div class="item">5</div>
+                                    <div class="item">30</div>
+                                    <div class="item">18</div>
+                                    <div class="item">12</div>
+                                    <div class="item">52.9%</div>
+                                    <div class="item">17.6%</div>
+                                    <div class="item">29.4%</div>
+                                    <div class="item">1.76</div>
+                                    <div class="item">1.06</div>
+                                    <div class="item">30</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">8</div>
+                                    <div class="item">北京国安</div>
+                                    <div class="item">17</div>
+                                    <div class="item">8</div>
+                                    <div class="item">4</div>
+                                    <div class="item">5</div>
+                                    <div class="item">28</div>
+                                    <div class="item">22</div>
+                                    <div class="item">6</div>
+                                    <div class="item">47.1%</div>
+                                    <div class="item">23.5%</div>
+                                    <div class="item">29.4%</div>
+                                    <div class="item">1.65</div>
+                                    <div class="item">1.29</div>
+                                    <div class="item">28</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">9</div>
+                                    <div class="item">上海申花</div>
+                                    <div class="item">17</div>
+                                    <div class="item">8</div>
+                                    <div class="item">4</div>
+                                    <div class="item">5</div>
+                                    <div class="item">19</div>
+                                    <div class="item">15</div>
+                                    <div class="item">4</div>
+                                    <div class="item">47.1%</div>
+                                    <div class="item">23.5%</div>
+                                    <div class="item">29.4%</div>
+                                    <div class="item">1.12</div>
+                                    <div class="item">0.88</div>
+                                    <div class="item">28</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">10</div>
+                                    <div class="item">天津津门虎</div>
+                                    <div class="item">17</div>
+                                    <div class="item">7</div>
+                                    <div class="item">4</div>
+                                    <div class="item">6</div>
+                                    <div class="item">23</div>
+                                    <div class="item">17</div>
+                                    <div class="item">6</div>
+                                    <div class="item">41.2%</div>
+                                    <div class="item">23.5%</div>
+                                    <div class="item">35.3%</div>
+                                    <div class="item">1.35</div>
+                                    <div class="item">1</div>
+                                    <div class="item">25</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">11</div>
+                                    <div class="item">大连人</div>
+                                    <div class="item">17</div>
+                                    <div class="item">6</div>
+                                    <div class="item">5</div>
+                                    <div class="item">6</div>
+                                    <div class="item">25</div>
+                                    <div class="item">25</div>
+                                    <div class="item">0</div>
+                                    <div class="item">35.3%</div>
+                                    <div class="item">29.4%</div>
+                                    <div class="item">35.3%</div>
+                                    <div class="item">1.47</div>
+                                    <div class="item">1.47</div>
+                                    <div class="item">23</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">12</div>
+                                    <div class="item">长春亚泰</div>
+                                    <div class="item">17</div>
+                                    <div class="item">5</div>
+                                    <div class="item">5</div>
+                                    <div class="item">7</div>
+                                    <div class="item">19</div>
+                                    <div class="item">19</div>
+                                    <div class="item">0</div>
+                                    <div class="item">29.4%</div>
+                                    <div class="item">29.4%</div>
+                                    <div class="item">41.2%</div>
+                                    <div class="item">1.12</div>
+                                    <div class="item">1.12</div>
+                                    <div class="item">20</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">13</div>
+                                    <div class="item">沧州雄狮</div>
+                                    <div class="item">17</div>
+                                    <div class="item">3</div>
+                                    <div class="item">8</div>
+                                    <div class="item">6</div>
+                                    <div class="item">13</div>
+                                    <div class="item">20</div>
+                                    <div class="item">-7</div>
+                                    <div class="item">17.6%</div>
+                                    <div class="item">47.1%</div>
+                                    <div class="item">35.3%</div>
+                                    <div class="item">0.76</div>
+                                    <div class="item">1.18</div>
+                                    <div class="item">17</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">14</div>
+                                    <div class="item">武汉队</div>
+                                    <div class="item">17</div>
+                                    <div class="item">4</div>
+                                    <div class="item">4</div>
+                                    <div class="item">9</div>
+                                    <div class="item">19</div>
+                                    <div class="item">33</div>
+                                    <div class="item">-14</div>
+                                    <div class="item">23.5%</div>
+                                    <div class="item">23.5%</div>
+                                    <div class="item">52.9%</div>
+                                    <div class="item">1.12</div>
+                                    <div class="item">1.94</div>
+                                    <div class="item">16</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">15</div>
+                                    <div class="item">深圳队</div>
+                                    <div class="item">17</div>
+                                    <div class="item">5</div>
+                                    <div class="item">1</div>
+                                    <div class="item">11</div>
+                                    <div class="item">13</div>
+                                    <div class="item">32</div>
+                                    <div class="item">-19</div>
+                                    <div class="item">29.4%</div>
+                                    <div class="item">5.9%</div>
+                                    <div class="item">64.7%</div>
+                                    <div class="item">0.76</div>
+                                    <div class="item">1.88</div>
+                                    <div class="item">16</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">16</div>
+                                    <div class="item">广州队</div>
+                                    <div class="item">17</div>
+                                    <div class="item">2</div>
+                                    <div class="item">5</div>
+                                    <div class="item">10</div>
+                                    <div class="item">17</div>
+                                    <div class="item">31</div>
+                                    <div class="item">-14</div>
+                                    <div class="item">11.8%</div>
+                                    <div class="item">29.4%</div>
+                                    <div class="item">58.8%</div>
+                                    <div class="item">1</div>
+                                    <div class="item">1.82</div>
+                                    <div class="item">11</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">17</div>
+                                    <div class="item">广州城</div>
+                                    <div class="item">17</div>
+                                    <div class="item">3</div>
+                                    <div class="item">2</div>
+                                    <div class="item">12</div>
+                                    <div class="item">16</div>
+                                    <div class="item">36</div>
+                                    <div class="item">-20</div>
+                                    <div class="item">17.6%</div>
+                                    <div class="item">11.8%</div>
+                                    <div class="item">70.6%</div>
+                                    <div class="item">0.94</div>
+                                    <div class="item">2.12</div>
+                                    <div class="item">11</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">18</div>
+                                    <div class="item">河北队</div>
+                                    <div class="item">17</div>
+                                    <div class="item">2</div>
+                                    <div class="item">0</div>
+                                    <div class="item">15</div>
+                                    <div class="item">11</div>
+                                    <div class="item">61</div>
+                                    <div class="item">-50</div>
+                                    <div class="item">11.8%</div>
+                                    <div class="item">0.0%</div>
+                                    <div class="item">88.2%</div>
+                                    <div class="item">0.65</div>
+                                    <div class="item">3.59</div>
+                                    <div class="item">6</div>
+                                </div>
+                            
+                        </div>
+
+                        
+
+
+                    
+                        
+
+                            <div class="integral-content">
+                            <div class="row1">
+                                <div class="item">排名</div>
+                                <div class="item">球队名</div>
+                                <div class="item">赛</div>
+                                <div class="item">胜</div>
+                                <div class="item">平</div>
+                                <div class="item">负</div>
+                                <div class="item">得</div>
+                                <div class="item">失</div>
+                                <div class="item">净</div>
+                                <div class="item">胜%</div>
+                                <div class="item">平%</div>
+                                <div class="item">负%</div>
+                                <div class="item">均得</div>
+                                <div class="item">均失</div>
+                                <div class="item">积分</div>
+
+                            </div>
+
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">1</div>
+                                    <div class="item">武汉三镇</div>
+                                    <div class="item">17</div>
+                                    <div class="item">13</div>
+                                    <div class="item">2</div>
+                                    <div class="item">2</div>
+                                    <div class="item">36</div>
+                                    <div class="item">10</div>
+                                    <div class="item">26</div>
+                                    <div class="item">76.5%</div>
+                                    <div class="item">11.8%</div>
+                                    <div class="item">11.8%</div>
+                                    <div class="item">2.12</div>
+                                    <div class="item">0.59</div>
+                                    <div class="item">41</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">2</div>
+                                    <div class="item">山东泰山</div>
+                                    <div class="item">17</div>
+                                    <div class="item">10</div>
+                                    <div class="item">2</div>
+                                    <div class="item">5</div>
+                                    <div class="item">35</div>
+                                    <div class="item">22</div>
+                                    <div class="item">13</div>
+                                    <div class="item">58.8%</div>
+                                    <div class="item">11.8%</div>
+                                    <div class="item">29.4%</div>
+                                    <div class="item">2.06</div>
+                                    <div class="item">1.29</div>
+                                    <div class="item">32</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">3</div>
+                                    <div class="item">成都蓉城</div>
+                                    <div class="item">17</div>
+                                    <div class="item">9</div>
+                                    <div class="item">4</div>
+                                    <div class="item">4</div>
+                                    <div class="item">16</div>
+                                    <div class="item">14</div>
+                                    <div class="item">2</div>
+                                    <div class="item">52.9%</div>
+                                    <div class="item">23.5%</div>
+                                    <div class="item">23.5%</div>
+                                    <div class="item">0.94</div>
+                                    <div class="item">0.82</div>
+                                    <div class="item">31</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">4</div>
+                                    <div class="item">上海海港</div>
+                                    <div class="item">17</div>
+                                    <div class="item">9</div>
+                                    <div class="item">3</div>
+                                    <div class="item">5</div>
+                                    <div class="item">24</div>
+                                    <div class="item">15</div>
+                                    <div class="item">9</div>
+                                    <div class="item">52.9%</div>
+                                    <div class="item">17.6%</div>
+                                    <div class="item">29.4%</div>
+                                    <div class="item">1.41</div>
+                                    <div class="item">0.88</div>
+                                    <div class="item">30</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">5</div>
+                                    <div class="item">北京国安</div>
+                                    <div class="item">17</div>
+                                    <div class="item">9</div>
+                                    <div class="item">3</div>
+                                    <div class="item">5</div>
+                                    <div class="item">29</div>
+                                    <div class="item">27</div>
+                                    <div class="item">2</div>
+                                    <div class="item">52.9%</div>
+                                    <div class="item">17.6%</div>
+                                    <div class="item">29.4%</div>
+                                    <div class="item">1.71</div>
+                                    <div class="item">1.59</div>
+                                    <div class="item">30</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">6</div>
+                                    <div class="item">浙江队</div>
+                                    <div class="item">17</div>
+                                    <div class="item">7</div>
+                                    <div class="item">7</div>
+                                    <div class="item">3</div>
+                                    <div class="item">32</div>
+                                    <div class="item">18</div>
+                                    <div class="item">14</div>
+                                    <div class="item">41.2%</div>
+                                    <div class="item">41.2%</div>
+                                    <div class="item">17.6%</div>
+                                    <div class="item">1.88</div>
+                                    <div class="item">1.06</div>
+                                    <div class="item">28</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">7</div>
+                                    <div class="item">河南嵩山龙门</div>
+                                    <div class="item">17</div>
+                                    <div class="item">7</div>
+                                    <div class="item">6</div>
+                                    <div class="item">4</div>
+                                    <div class="item">26</div>
+                                    <div class="item">15</div>
+                                    <div class="item">11</div>
+                                    <div class="item">41.2%</div>
+                                    <div class="item">35.3%</div>
+                                    <div class="item">23.5%</div>
+                                    <div class="item">1.53</div>
+                                    <div class="item">0.88</div>
+                                    <div class="item">27</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">8</div>
+                                    <div class="item">沧州雄狮</div>
+                                    <div class="item">17</div>
+                                    <div class="item">8</div>
+                                    <div class="item">3</div>
+                                    <div class="item">6</div>
+                                    <div class="item">34</div>
+                                    <div class="item">31</div>
+                                    <div class="item">3</div>
+                                    <div class="item">47.1%</div>
+                                    <div class="item">17.6%</div>
+                                    <div class="item">35.3%</div>
+                                    <div class="item">2</div>
+                                    <div class="item">1.82</div>
+                                    <div class="item">27</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">9</div>
+                                    <div class="item">上海申花</div>
+                                    <div class="item">17</div>
+                                    <div class="item">6</div>
+                                    <div class="item">7</div>
+                                    <div class="item">4</div>
+                                    <div class="item">23</div>
+                                    <div class="item">19</div>
+                                    <div class="item">4</div>
+                                    <div class="item">35.3%</div>
+                                    <div class="item">41.2%</div>
+                                    <div class="item">23.5%</div>
+                                    <div class="item">1.35</div>
+                                    <div class="item">1.12</div>
+                                    <div class="item">25</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">10</div>
+                                    <div class="item">长春亚泰</div>
+                                    <div class="item">17</div>
+                                    <div class="item">6</div>
+                                    <div class="item">6</div>
+                                    <div class="item">5</div>
+                                    <div class="item">30</div>
+                                    <div class="item">31</div>
+                                    <div class="item">-1</div>
+                                    <div class="item">35.3%</div>
+                                    <div class="item">35.3%</div>
+                                    <div class="item">29.4%</div>
+                                    <div class="item">1.76</div>
+                                    <div class="item">1.82</div>
+                                    <div class="item">24</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">11</div>
+                                    <div class="item">天津津门虎</div>
+                                    <div class="item">17</div>
+                                    <div class="item">7</div>
+                                    <div class="item">3</div>
+                                    <div class="item">7</div>
+                                    <div class="item">22</div>
+                                    <div class="item">25</div>
+                                    <div class="item">-3</div>
+                                    <div class="item">41.2%</div>
+                                    <div class="item">17.6%</div>
+                                    <div class="item">41.2%</div>
+                                    <div class="item">1.29</div>
+                                    <div class="item">1.47</div>
+                                    <div class="item">24</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">12</div>
+                                    <div class="item">大连人</div>
+                                    <div class="item">17</div>
+                                    <div class="item">6</div>
+                                    <div class="item">4</div>
+                                    <div class="item">7</div>
+                                    <div class="item">24</div>
+                                    <div class="item">28</div>
+                                    <div class="item">-4</div>
+                                    <div class="item">35.3%</div>
+                                    <div class="item">23.5%</div>
+                                    <div class="item">41.2%</div>
+                                    <div class="item">1.41</div>
+                                    <div class="item">1.65</div>
+                                    <div class="item">22</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">13</div>
+                                    <div class="item">梅州客家</div>
+                                    <div class="item">17</div>
+                                    <div class="item">5</div>
+                                    <div class="item">4</div>
+                                    <div class="item">8</div>
+                                    <div class="item">13</div>
+                                    <div class="item">23</div>
+                                    <div class="item">-10</div>
+                                    <div class="item">29.4%</div>
+                                    <div class="item">23.5%</div>
+                                    <div class="item">47.1%</div>
+                                    <div class="item">0.76</div>
+                                    <div class="item">1.35</div>
+                                    <div class="item">19</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">14</div>
+                                    <div class="item">深圳队</div>
+                                    <div class="item">17</div>
+                                    <div class="item">4</div>
+                                    <div class="item">2</div>
+                                    <div class="item">11</div>
+                                    <div class="item">16</div>
+                                    <div class="item">42</div>
+                                    <div class="item">-26</div>
+                                    <div class="item">23.5%</div>
+                                    <div class="item">11.8%</div>
+                                    <div class="item">64.7%</div>
+                                    <div class="item">0.94</div>
+                                    <div class="item">2.47</div>
+                                    <div class="item">14</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">15</div>
+                                    <div class="item">广州城</div>
+                                    <div class="item">17</div>
+                                    <div class="item">3</div>
+                                    <div class="item">3</div>
+                                    <div class="item">11</div>
+                                    <div class="item">16</div>
+                                    <div class="item">26</div>
+                                    <div class="item">-10</div>
+                                    <div class="item">17.6%</div>
+                                    <div class="item">17.6%</div>
+                                    <div class="item">64.7%</div>
+                                    <div class="item">0.94</div>
+                                    <div class="item">1.53</div>
+                                    <div class="item">12</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">16</div>
+                                    <div class="item">武汉队</div>
+                                    <div class="item">17</div>
+                                    <div class="item">4</div>
+                                    <div class="item">0</div>
+                                    <div class="item">13</div>
+                                    <div class="item">15</div>
+                                    <div class="item">38</div>
+                                    <div class="item">-23</div>
+                                    <div class="item">23.5%</div>
+                                    <div class="item">0.0%</div>
+                                    <div class="item">76.5%</div>
+                                    <div class="item">0.88</div>
+                                    <div class="item">2.24</div>
+                                    <div class="item">12</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">17</div>
+                                    <div class="item">广州队</div>
+                                    <div class="item">17</div>
+                                    <div class="item">1</div>
+                                    <div class="item">3</div>
+                                    <div class="item">13</div>
+                                    <div class="item">7</div>
+                                    <div class="item">32</div>
+                                    <div class="item">-25</div>
+                                    <div class="item">5.9%</div>
+                                    <div class="item">17.6%</div>
+                                    <div class="item">76.5%</div>
+                                    <div class="item">0.41</div>
+                                    <div class="item">1.88</div>
+                                    <div class="item">6</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">18</div>
+                                    <div class="item">河北队</div>
+                                    <div class="item">17</div>
+                                    <div class="item">0</div>
+                                    <div class="item">0</div>
+                                    <div class="item">17</div>
+                                    <div class="item">7</div>
+                                    <div class="item">54</div>
+                                    <div class="item">-47</div>
+                                    <div class="item">0.0%</div>
+                                    <div class="item">0.0%</div>
+                                    <div class="item">100.0%</div>
+                                    <div class="item">0.41</div>
+                                    <div class="item">3.18</div>
+                                    <div class="item">0</div>
+                                </div>
+                            
+                        </div>
+
+                        
+
+
+                    
+                        
+
+                            <div class="integral-content">
+                            <div class="row1">
+                                <div class="item">排名</div>
+                                <div class="item">球队名</div>
+                                <div class="item">赛</div>
+                                <div class="item">胜</div>
+                                <div class="item">平</div>
+                                <div class="item">负</div>
+                                <div class="item">得</div>
+                                <div class="item">失</div>
+                                <div class="item">净</div>
+                                <div class="item">胜%</div>
+                                <div class="item">平%</div>
+                                <div class="item">负%</div>
+                                <div class="item">均得</div>
+                                <div class="item">均失</div>
+                                <div class="item">积分</div>
+
+                            </div>
+
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">1</div>
+                                    <div class="item">武汉三镇</div>
+                                    <div class="item">34</div>
+                                    <div class="item">23</div>
+                                    <div class="item">7</div>
+                                    <div class="item">4</div>
+                                    <div class="item">40</div>
+                                    <div class="item">11</div>
+                                    <div class="item">29</div>
+                                    <div class="item">67.6%</div>
+                                    <div class="item">20.6%</div>
+                                    <div class="item">11.8%</div>
+                                    <div class="item">1.18</div>
+                                    <div class="item">0.32</div>
+                                    <div class="item">76</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">2</div>
+                                    <div class="item">上海海港</div>
+                                    <div class="item">34</div>
+                                    <div class="item">15</div>
+                                    <div class="item">15</div>
+                                    <div class="item">4</div>
+                                    <div class="item">29</div>
+                                    <div class="item">9</div>
+                                    <div class="item">20</div>
+                                    <div class="item">44.1%</div>
+                                    <div class="item">44.1%</div>
+                                    <div class="item">11.8%</div>
+                                    <div class="item">0.85</div>
+                                    <div class="item">0.26</div>
+                                    <div class="item">60</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">3</div>
+                                    <div class="item">浙江队</div>
+                                    <div class="item">34</div>
+                                    <div class="item">15</div>
+                                    <div class="item">12</div>
+                                    <div class="item">7</div>
+                                    <div class="item">27</div>
+                                    <div class="item">12</div>
+                                    <div class="item">15</div>
+                                    <div class="item">44.1%</div>
+                                    <div class="item">35.3%</div>
+                                    <div class="item">20.6%</div>
+                                    <div class="item">0.79</div>
+                                    <div class="item">0.35</div>
+                                    <div class="item">57</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">4</div>
+                                    <div class="item">北京国安</div>
+                                    <div class="item">34</div>
+                                    <div class="item">15</div>
+                                    <div class="item">11</div>
+                                    <div class="item">8</div>
+                                    <div class="item">30</div>
+                                    <div class="item">19</div>
+                                    <div class="item">11</div>
+                                    <div class="item">44.1%</div>
+                                    <div class="item">32.4%</div>
+                                    <div class="item">23.5%</div>
+                                    <div class="item">0.88</div>
+                                    <div class="item">0.56</div>
+                                    <div class="item">56</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">5</div>
+                                    <div class="item">山东泰山</div>
+                                    <div class="item">34</div>
+                                    <div class="item">13</div>
+                                    <div class="item">16</div>
+                                    <div class="item">5</div>
+                                    <div class="item">32</div>
+                                    <div class="item">14</div>
+                                    <div class="item">18</div>
+                                    <div class="item">38.2%</div>
+                                    <div class="item">47.1%</div>
+                                    <div class="item">14.7%</div>
+                                    <div class="item">0.94</div>
+                                    <div class="item">0.41</div>
+                                    <div class="item">55</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">6</div>
+                                    <div class="item">上海申花</div>
+                                    <div class="item">34</div>
+                                    <div class="item">12</div>
+                                    <div class="item">16</div>
+                                    <div class="item">6</div>
+                                    <div class="item">16</div>
+                                    <div class="item">9</div>
+                                    <div class="item">7</div>
+                                    <div class="item">35.3%</div>
+                                    <div class="item">47.1%</div>
+                                    <div class="item">17.6%</div>
+                                    <div class="item">0.47</div>
+                                    <div class="item">0.26</div>
+                                    <div class="item">52</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">7</div>
+                                    <div class="item">河南嵩山龙门</div>
+                                    <div class="item">34</div>
+                                    <div class="item">12</div>
+                                    <div class="item">13</div>
+                                    <div class="item">9</div>
+                                    <div class="item">21</div>
+                                    <div class="item">16</div>
+                                    <div class="item">5</div>
+                                    <div class="item">35.3%</div>
+                                    <div class="item">38.2%</div>
+                                    <div class="item">26.5%</div>
+                                    <div class="item">0.62</div>
+                                    <div class="item">0.47</div>
+                                    <div class="item">49</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">8</div>
+                                    <div class="item">成都蓉城</div>
+                                    <div class="item">34</div>
+                                    <div class="item">12</div>
+                                    <div class="item">11</div>
+                                    <div class="item">11</div>
+                                    <div class="item">20</div>
+                                    <div class="item">18</div>
+                                    <div class="item">2</div>
+                                    <div class="item">35.3%</div>
+                                    <div class="item">32.4%</div>
+                                    <div class="item">32.4%</div>
+                                    <div class="item">0.59</div>
+                                    <div class="item">0.53</div>
+                                    <div class="item">47</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">9</div>
+                                    <div class="item">长春亚泰</div>
+                                    <div class="item">34</div>
+                                    <div class="item">12</div>
+                                    <div class="item">9</div>
+                                    <div class="item">13</div>
+                                    <div class="item">24</div>
+                                    <div class="item">26</div>
+                                    <div class="item">-2</div>
+                                    <div class="item">35.3%</div>
+                                    <div class="item">26.5%</div>
+                                    <div class="item">38.2%</div>
+                                    <div class="item">0.71</div>
+                                    <div class="item">0.76</div>
+                                    <div class="item">45</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">10</div>
+                                    <div class="item">天津津门虎</div>
+                                    <div class="item">34</div>
+                                    <div class="item">9</div>
+                                    <div class="item">17</div>
+                                    <div class="item">8</div>
+                                    <div class="item">18</div>
+                                    <div class="item">16</div>
+                                    <div class="item">2</div>
+                                    <div class="item">26.5%</div>
+                                    <div class="item">50.0%</div>
+                                    <div class="item">23.5%</div>
+                                    <div class="item">0.53</div>
+                                    <div class="item">0.47</div>
+                                    <div class="item">44</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">11</div>
+                                    <div class="item">大连人</div>
+                                    <div class="item">34</div>
+                                    <div class="item">10</div>
+                                    <div class="item">14</div>
+                                    <div class="item">10</div>
+                                    <div class="item">18</div>
+                                    <div class="item">18</div>
+                                    <div class="item">0</div>
+                                    <div class="item">29.4%</div>
+                                    <div class="item">41.2%</div>
+                                    <div class="item">29.4%</div>
+                                    <div class="item">0.53</div>
+                                    <div class="item">0.53</div>
+                                    <div class="item">44</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">12</div>
+                                    <div class="item">梅州客家</div>
+                                    <div class="item">34</div>
+                                    <div class="item">9</div>
+                                    <div class="item">15</div>
+                                    <div class="item">10</div>
+                                    <div class="item">18</div>
+                                    <div class="item">18</div>
+                                    <div class="item">0</div>
+                                    <div class="item">26.5%</div>
+                                    <div class="item">44.1%</div>
+                                    <div class="item">29.4%</div>
+                                    <div class="item">0.53</div>
+                                    <div class="item">0.53</div>
+                                    <div class="item">42</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">13</div>
+                                    <div class="item">沧州雄狮</div>
+                                    <div class="item">34</div>
+                                    <div class="item">10</div>
+                                    <div class="item">10</div>
+                                    <div class="item">14</div>
+                                    <div class="item">24</div>
+                                    <div class="item">27</div>
+                                    <div class="item">-3</div>
+                                    <div class="item">29.4%</div>
+                                    <div class="item">29.4%</div>
+                                    <div class="item">41.2%</div>
+                                    <div class="item">0.71</div>
+                                    <div class="item">0.79</div>
+                                    <div class="item">40</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">14</div>
+                                    <div class="item">武汉队</div>
+                                    <div class="item">34</div>
+                                    <div class="item">8</div>
+                                    <div class="item">10</div>
+                                    <div class="item">16</div>
+                                    <div class="item">19</div>
+                                    <div class="item">30</div>
+                                    <div class="item">-11</div>
+                                    <div class="item">23.5%</div>
+                                    <div class="item">29.4%</div>
+                                    <div class="item">47.1%</div>
+                                    <div class="item">0.56</div>
+                                    <div class="item">0.88</div>
+                                    <div class="item">34</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">15</div>
+                                    <div class="item">深圳队</div>
+                                    <div class="item">34</div>
+                                    <div class="item">7</div>
+                                    <div class="item">11</div>
+                                    <div class="item">16</div>
+                                    <div class="item">16</div>
+                                    <div class="item">30</div>
+                                    <div class="item">-14</div>
+                                    <div class="item">20.6%</div>
+                                    <div class="item">32.4%</div>
+                                    <div class="item">47.1%</div>
+                                    <div class="item">0.47</div>
+                                    <div class="item">0.88</div>
+                                    <div class="item">32</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">16</div>
+                                    <div class="item">广州城</div>
+                                    <div class="item">34</div>
+                                    <div class="item">7</div>
+                                    <div class="item">10</div>
+                                    <div class="item">17</div>
+                                    <div class="item">13</div>
+                                    <div class="item">35</div>
+                                    <div class="item">-22</div>
+                                    <div class="item">20.6%</div>
+                                    <div class="item">29.4%</div>
+                                    <div class="item">50.0%</div>
+                                    <div class="item">0.38</div>
+                                    <div class="item">1.03</div>
+                                    <div class="item">31</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">17</div>
+                                    <div class="item">广州队</div>
+                                    <div class="item">34</div>
+                                    <div class="item">4</div>
+                                    <div class="item">18</div>
+                                    <div class="item">12</div>
+                                    <div class="item">12</div>
+                                    <div class="item">29</div>
+                                    <div class="item">-17</div>
+                                    <div class="item">11.8%</div>
+                                    <div class="item">52.9%</div>
+                                    <div class="item">35.3%</div>
+                                    <div class="item">0.35</div>
+                                    <div class="item">0.85</div>
+                                    <div class="item">30</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">18</div>
+                                    <div class="item">河北队</div>
+                                    <div class="item">34</div>
+                                    <div class="item">1</div>
+                                    <div class="item">9</div>
+                                    <div class="item">24</div>
+                                    <div class="item">7</div>
+                                    <div class="item">47</div>
+                                    <div class="item">-40</div>
+                                    <div class="item">2.9%</div>
+                                    <div class="item">26.5%</div>
+                                    <div class="item">70.6%</div>
+                                    <div class="item">0.21</div>
+                                    <div class="item">1.38</div>
+                                    <div class="item">12</div>
+                                </div>
+                            
+                        </div>
+
+                        
+
+
+                    
+                        
+
+                            <div class="integral-content">
+                            <div class="row1">
+                                <div class="item">排名</div>
+                                <div class="item">球队名</div>
+                                <div class="item">赛</div>
+                                <div class="item">胜</div>
+                                <div class="item">平</div>
+                                <div class="item">负</div>
+                                <div class="item">得</div>
+                                <div class="item">失</div>
+                                <div class="item">净</div>
+                                <div class="item">胜%</div>
+                                <div class="item">平%</div>
+                                <div class="item">负%</div>
+                                <div class="item">均得</div>
+                                <div class="item">均失</div>
+                                <div class="item">积分</div>
+
+                            </div>
+
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">1</div>
+                                    <div class="item">武汉三镇</div>
+                                    <div class="item">17</div>
+                                    <div class="item">12</div>
+                                    <div class="item">2</div>
+                                    <div class="item">3</div>
+                                    <div class="item">24</div>
+                                    <div class="item">7</div>
+                                    <div class="item">17</div>
+                                    <div class="item">70.6%</div>
+                                    <div class="item">11.8%</div>
+                                    <div class="item">17.6%</div>
+                                    <div class="item">1.41</div>
+                                    <div class="item">0.41</div>
+                                    <div class="item">38</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">2</div>
+                                    <div class="item">浙江队</div>
+                                    <div class="item">17</div>
+                                    <div class="item">10</div>
+                                    <div class="item">5</div>
+                                    <div class="item">2</div>
+                                    <div class="item">17</div>
+                                    <div class="item">4</div>
+                                    <div class="item">13</div>
+                                    <div class="item">58.8%</div>
+                                    <div class="item">29.4%</div>
+                                    <div class="item">11.8%</div>
+                                    <div class="item">1</div>
+                                    <div class="item">0.24</div>
+                                    <div class="item">35</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">3</div>
+                                    <div class="item">山东泰山</div>
+                                    <div class="item">17</div>
+                                    <div class="item">8</div>
+                                    <div class="item">7</div>
+                                    <div class="item">2</div>
+                                    <div class="item">17</div>
+                                    <div class="item">3</div>
+                                    <div class="item">14</div>
+                                    <div class="item">47.1%</div>
+                                    <div class="item">41.2%</div>
+                                    <div class="item">11.8%</div>
+                                    <div class="item">1</div>
+                                    <div class="item">0.18</div>
+                                    <div class="item">31</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">4</div>
+                                    <div class="item">上海海港</div>
+                                    <div class="item">17</div>
+                                    <div class="item">8</div>
+                                    <div class="item">6</div>
+                                    <div class="item">3</div>
+                                    <div class="item">17</div>
+                                    <div class="item">5</div>
+                                    <div class="item">12</div>
+                                    <div class="item">47.1%</div>
+                                    <div class="item">35.3%</div>
+                                    <div class="item">17.6%</div>
+                                    <div class="item">1</div>
+                                    <div class="item">0.29</div>
+                                    <div class="item">30</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">5</div>
+                                    <div class="item">河南嵩山龙门</div>
+                                    <div class="item">17</div>
+                                    <div class="item">8</div>
+                                    <div class="item">4</div>
+                                    <div class="item">5</div>
+                                    <div class="item">15</div>
+                                    <div class="item">9</div>
+                                    <div class="item">6</div>
+                                    <div class="item">47.1%</div>
+                                    <div class="item">23.5%</div>
+                                    <div class="item">29.4%</div>
+                                    <div class="item">0.88</div>
+                                    <div class="item">0.53</div>
+                                    <div class="item">28</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">6</div>
+                                    <div class="item">成都蓉城</div>
+                                    <div class="item">17</div>
+                                    <div class="item">7</div>
+                                    <div class="item">6</div>
+                                    <div class="item">4</div>
+                                    <div class="item">15</div>
+                                    <div class="item">10</div>
+                                    <div class="item">5</div>
+                                    <div class="item">41.2%</div>
+                                    <div class="item">35.3%</div>
+                                    <div class="item">23.5%</div>
+                                    <div class="item">0.88</div>
+                                    <div class="item">0.59</div>
+                                    <div class="item">27</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">7</div>
+                                    <div class="item">北京国安</div>
+                                    <div class="item">17</div>
+                                    <div class="item">6</div>
+                                    <div class="item">8</div>
+                                    <div class="item">3</div>
+                                    <div class="item">12</div>
+                                    <div class="item">7</div>
+                                    <div class="item">5</div>
+                                    <div class="item">35.3%</div>
+                                    <div class="item">47.1%</div>
+                                    <div class="item">17.6%</div>
+                                    <div class="item">0.71</div>
+                                    <div class="item">0.41</div>
+                                    <div class="item">26</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">8</div>
+                                    <div class="item">大连人</div>
+                                    <div class="item">17</div>
+                                    <div class="item">7</div>
+                                    <div class="item">5</div>
+                                    <div class="item">5</div>
+                                    <div class="item">12</div>
+                                    <div class="item">9</div>
+                                    <div class="item">3</div>
+                                    <div class="item">41.2%</div>
+                                    <div class="item">29.4%</div>
+                                    <div class="item">29.4%</div>
+                                    <div class="item">0.71</div>
+                                    <div class="item">0.53</div>
+                                    <div class="item">26</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">9</div>
+                                    <div class="item">天津津门虎</div>
+                                    <div class="item">17</div>
+                                    <div class="item">5</div>
+                                    <div class="item">10</div>
+                                    <div class="item">2</div>
+                                    <div class="item">8</div>
+                                    <div class="item">3</div>
+                                    <div class="item">5</div>
+                                    <div class="item">29.4%</div>
+                                    <div class="item">58.8%</div>
+                                    <div class="item">11.8%</div>
+                                    <div class="item">0.47</div>
+                                    <div class="item">0.18</div>
+                                    <div class="item">25</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">10</div>
+                                    <div class="item">梅州客家</div>
+                                    <div class="item">17</div>
+                                    <div class="item">5</div>
+                                    <div class="item">8</div>
+                                    <div class="item">4</div>
+                                    <div class="item">10</div>
+                                    <div class="item">8</div>
+                                    <div class="item">2</div>
+                                    <div class="item">29.4%</div>
+                                    <div class="item">47.1%</div>
+                                    <div class="item">23.5%</div>
+                                    <div class="item">0.59</div>
+                                    <div class="item">0.47</div>
+                                    <div class="item">23</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">11</div>
+                                    <div class="item">上海申花</div>
+                                    <div class="item">17</div>
+                                    <div class="item">5</div>
+                                    <div class="item">8</div>
+                                    <div class="item">4</div>
+                                    <div class="item">5</div>
+                                    <div class="item">4</div>
+                                    <div class="item">1</div>
+                                    <div class="item">29.4%</div>
+                                    <div class="item">47.1%</div>
+                                    <div class="item">23.5%</div>
+                                    <div class="item">0.29</div>
+                                    <div class="item">0.24</div>
+                                    <div class="item">23</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">12</div>
+                                    <div class="item">武汉队</div>
+                                    <div class="item">17</div>
+                                    <div class="item">6</div>
+                                    <div class="item">5</div>
+                                    <div class="item">6</div>
+                                    <div class="item">12</div>
+                                    <div class="item">13</div>
+                                    <div class="item">-1</div>
+                                    <div class="item">35.3%</div>
+                                    <div class="item">29.4%</div>
+                                    <div class="item">35.3%</div>
+                                    <div class="item">0.71</div>
+                                    <div class="item">0.76</div>
+                                    <div class="item">23</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">13</div>
+                                    <div class="item">长春亚泰</div>
+                                    <div class="item">17</div>
+                                    <div class="item">6</div>
+                                    <div class="item">4</div>
+                                    <div class="item">7</div>
+                                    <div class="item">11</div>
+                                    <div class="item">11</div>
+                                    <div class="item">0</div>
+                                    <div class="item">35.3%</div>
+                                    <div class="item">23.5%</div>
+                                    <div class="item">41.2%</div>
+                                    <div class="item">0.65</div>
+                                    <div class="item">0.65</div>
+                                    <div class="item">22</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">14</div>
+                                    <div class="item">深圳队</div>
+                                    <div class="item">17</div>
+                                    <div class="item">5</div>
+                                    <div class="item">4</div>
+                                    <div class="item">8</div>
+                                    <div class="item">9</div>
+                                    <div class="item">15</div>
+                                    <div class="item">-6</div>
+                                    <div class="item">29.4%</div>
+                                    <div class="item">23.5%</div>
+                                    <div class="item">47.1%</div>
+                                    <div class="item">0.53</div>
+                                    <div class="item">0.88</div>
+                                    <div class="item">19</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">15</div>
+                                    <div class="item">广州队</div>
+                                    <div class="item">17</div>
+                                    <div class="item">2</div>
+                                    <div class="item">12</div>
+                                    <div class="item">3</div>
+                                    <div class="item">10</div>
+                                    <div class="item">13</div>
+                                    <div class="item">-3</div>
+                                    <div class="item">11.8%</div>
+                                    <div class="item">70.6%</div>
+                                    <div class="item">17.6%</div>
+                                    <div class="item">0.59</div>
+                                    <div class="item">0.76</div>
+                                    <div class="item">18</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">16</div>
+                                    <div class="item">沧州雄狮</div>
+                                    <div class="item">17</div>
+                                    <div class="item">2</div>
+                                    <div class="item">9</div>
+                                    <div class="item">6</div>
+                                    <div class="item">4</div>
+                                    <div class="item">11</div>
+                                    <div class="item">-7</div>
+                                    <div class="item">11.8%</div>
+                                    <div class="item">52.9%</div>
+                                    <div class="item">35.3%</div>
+                                    <div class="item">0.24</div>
+                                    <div class="item">0.65</div>
+                                    <div class="item">15</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">17</div>
+                                    <div class="item">广州城</div>
+                                    <div class="item">17</div>
+                                    <div class="item">3</div>
+                                    <div class="item">4</div>
+                                    <div class="item">10</div>
+                                    <div class="item">7</div>
+                                    <div class="item">22</div>
+                                    <div class="item">-15</div>
+                                    <div class="item">17.6%</div>
+                                    <div class="item">23.5%</div>
+                                    <div class="item">58.8%</div>
+                                    <div class="item">0.41</div>
+                                    <div class="item">1.29</div>
+                                    <div class="item">13</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">18</div>
+                                    <div class="item">河北队</div>
+                                    <div class="item">17</div>
+                                    <div class="item">1</div>
+                                    <div class="item">5</div>
+                                    <div class="item">11</div>
+                                    <div class="item">3</div>
+                                    <div class="item">22</div>
+                                    <div class="item">-19</div>
+                                    <div class="item">5.9%</div>
+                                    <div class="item">29.4%</div>
+                                    <div class="item">64.7%</div>
+                                    <div class="item">0.18</div>
+                                    <div class="item">1.29</div>
+                                    <div class="item">8</div>
+                                </div>
+                            
+                        </div>
+
+                        
+
+
+                    
+                        
+
+                            <div class="integral-content">
+                            <div class="row1">
+                                <div class="item">排名</div>
+                                <div class="item">球队名</div>
+                                <div class="item">赛</div>
+                                <div class="item">胜</div>
+                                <div class="item">平</div>
+                                <div class="item">负</div>
+                                <div class="item">得</div>
+                                <div class="item">失</div>
+                                <div class="item">净</div>
+                                <div class="item">胜%</div>
+                                <div class="item">平%</div>
+                                <div class="item">负%</div>
+                                <div class="item">均得</div>
+                                <div class="item">均失</div>
+                                <div class="item">积分</div>
+
+                            </div>
+
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">1</div>
+                                    <div class="item">武汉三镇</div>
+                                    <div class="item">17</div>
+                                    <div class="item">11</div>
+                                    <div class="item">5</div>
+                                    <div class="item">1</div>
+                                    <div class="item">16</div>
+                                    <div class="item">4</div>
+                                    <div class="item">12</div>
+                                    <div class="item">64.7%</div>
+                                    <div class="item">29.4%</div>
+                                    <div class="item">5.9%</div>
+                                    <div class="item">0.94</div>
+                                    <div class="item">0.24</div>
+                                    <div class="item">38</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">2</div>
+                                    <div class="item">上海海港</div>
+                                    <div class="item">17</div>
+                                    <div class="item">7</div>
+                                    <div class="item">9</div>
+                                    <div class="item">1</div>
+                                    <div class="item">12</div>
+                                    <div class="item">4</div>
+                                    <div class="item">8</div>
+                                    <div class="item">41.2%</div>
+                                    <div class="item">52.9%</div>
+                                    <div class="item">5.9%</div>
+                                    <div class="item">0.71</div>
+                                    <div class="item">0.24</div>
+                                    <div class="item">30</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">3</div>
+                                    <div class="item">北京国安</div>
+                                    <div class="item">17</div>
+                                    <div class="item">9</div>
+                                    <div class="item">3</div>
+                                    <div class="item">5</div>
+                                    <div class="item">18</div>
+                                    <div class="item">12</div>
+                                    <div class="item">6</div>
+                                    <div class="item">52.9%</div>
+                                    <div class="item">17.6%</div>
+                                    <div class="item">29.4%</div>
+                                    <div class="item">1.06</div>
+                                    <div class="item">0.71</div>
+                                    <div class="item">30</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">4</div>
+                                    <div class="item">上海申花</div>
+                                    <div class="item">17</div>
+                                    <div class="item">7</div>
+                                    <div class="item">8</div>
+                                    <div class="item">2</div>
+                                    <div class="item">11</div>
+                                    <div class="item">5</div>
+                                    <div class="item">6</div>
+                                    <div class="item">41.2%</div>
+                                    <div class="item">47.1%</div>
+                                    <div class="item">11.8%</div>
+                                    <div class="item">0.65</div>
+                                    <div class="item">0.29</div>
+                                    <div class="item">29</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">5</div>
+                                    <div class="item">沧州雄狮</div>
+                                    <div class="item">17</div>
+                                    <div class="item">8</div>
+                                    <div class="item">1</div>
+                                    <div class="item">8</div>
+                                    <div class="item">20</div>
+                                    <div class="item">16</div>
+                                    <div class="item">4</div>
+                                    <div class="item">47.1%</div>
+                                    <div class="item">5.9%</div>
+                                    <div class="item">47.1%</div>
+                                    <div class="item">1.18</div>
+                                    <div class="item">0.94</div>
+                                    <div class="item">25</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">6</div>
+                                    <div class="item">山东泰山</div>
+                                    <div class="item">17</div>
+                                    <div class="item">5</div>
+                                    <div class="item">9</div>
+                                    <div class="item">3</div>
+                                    <div class="item">15</div>
+                                    <div class="item">11</div>
+                                    <div class="item">4</div>
+                                    <div class="item">29.4%</div>
+                                    <div class="item">52.9%</div>
+                                    <div class="item">17.6%</div>
+                                    <div class="item">0.88</div>
+                                    <div class="item">0.65</div>
+                                    <div class="item">24</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">7</div>
+                                    <div class="item">长春亚泰</div>
+                                    <div class="item">17</div>
+                                    <div class="item">6</div>
+                                    <div class="item">5</div>
+                                    <div class="item">6</div>
+                                    <div class="item">13</div>
+                                    <div class="item">15</div>
+                                    <div class="item">-2</div>
+                                    <div class="item">35.3%</div>
+                                    <div class="item">29.4%</div>
+                                    <div class="item">35.3%</div>
+                                    <div class="item">0.76</div>
+                                    <div class="item">0.88</div>
+                                    <div class="item">23</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">8</div>
+                                    <div class="item">浙江队</div>
+                                    <div class="item">17</div>
+                                    <div class="item">5</div>
+                                    <div class="item">7</div>
+                                    <div class="item">5</div>
+                                    <div class="item">10</div>
+                                    <div class="item">8</div>
+                                    <div class="item">2</div>
+                                    <div class="item">29.4%</div>
+                                    <div class="item">41.2%</div>
+                                    <div class="item">29.4%</div>
+                                    <div class="item">0.59</div>
+                                    <div class="item">0.47</div>
+                                    <div class="item">22</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">9</div>
+                                    <div class="item">河南嵩山龙门</div>
+                                    <div class="item">17</div>
+                                    <div class="item">4</div>
+                                    <div class="item">9</div>
+                                    <div class="item">4</div>
+                                    <div class="item">6</div>
+                                    <div class="item">7</div>
+                                    <div class="item">-1</div>
+                                    <div class="item">23.5%</div>
+                                    <div class="item">52.9%</div>
+                                    <div class="item">23.5%</div>
+                                    <div class="item">0.35</div>
+                                    <div class="item">0.41</div>
+                                    <div class="item">21</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">10</div>
+                                    <div class="item">成都蓉城</div>
+                                    <div class="item">17</div>
+                                    <div class="item">5</div>
+                                    <div class="item">5</div>
+                                    <div class="item">7</div>
+                                    <div class="item">5</div>
+                                    <div class="item">8</div>
+                                    <div class="item">-3</div>
+                                    <div class="item">29.4%</div>
+                                    <div class="item">29.4%</div>
+                                    <div class="item">41.2%</div>
+                                    <div class="item">0.29</div>
+                                    <div class="item">0.47</div>
+                                    <div class="item">20</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">11</div>
+                                    <div class="item">梅州客家</div>
+                                    <div class="item">17</div>
+                                    <div class="item">4</div>
+                                    <div class="item">7</div>
+                                    <div class="item">6</div>
+                                    <div class="item">8</div>
+                                    <div class="item">10</div>
+                                    <div class="item">-2</div>
+                                    <div class="item">23.5%</div>
+                                    <div class="item">41.2%</div>
+                                    <div class="item">35.3%</div>
+                                    <div class="item">0.47</div>
+                                    <div class="item">0.59</div>
+                                    <div class="item">19</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">12</div>
+                                    <div class="item">天津津门虎</div>
+                                    <div class="item">17</div>
+                                    <div class="item">4</div>
+                                    <div class="item">7</div>
+                                    <div class="item">6</div>
+                                    <div class="item">10</div>
+                                    <div class="item">13</div>
+                                    <div class="item">-3</div>
+                                    <div class="item">23.5%</div>
+                                    <div class="item">41.2%</div>
+                                    <div class="item">35.3%</div>
+                                    <div class="item">0.59</div>
+                                    <div class="item">0.76</div>
+                                    <div class="item">19</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">13</div>
+                                    <div class="item">大连人</div>
+                                    <div class="item">17</div>
+                                    <div class="item">3</div>
+                                    <div class="item">9</div>
+                                    <div class="item">5</div>
+                                    <div class="item">6</div>
+                                    <div class="item">9</div>
+                                    <div class="item">-3</div>
+                                    <div class="item">17.6%</div>
+                                    <div class="item">52.9%</div>
+                                    <div class="item">29.4%</div>
+                                    <div class="item">0.35</div>
+                                    <div class="item">0.53</div>
+                                    <div class="item">18</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">14</div>
+                                    <div class="item">广州城</div>
+                                    <div class="item">17</div>
+                                    <div class="item">4</div>
+                                    <div class="item">6</div>
+                                    <div class="item">7</div>
+                                    <div class="item">6</div>
+                                    <div class="item">13</div>
+                                    <div class="item">-7</div>
+                                    <div class="item">23.5%</div>
+                                    <div class="item">35.3%</div>
+                                    <div class="item">41.2%</div>
+                                    <div class="item">0.35</div>
+                                    <div class="item">0.76</div>
+                                    <div class="item">18</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">15</div>
+                                    <div class="item">深圳队</div>
+                                    <div class="item">17</div>
+                                    <div class="item">2</div>
+                                    <div class="item">7</div>
+                                    <div class="item">8</div>
+                                    <div class="item">7</div>
+                                    <div class="item">15</div>
+                                    <div class="item">-8</div>
+                                    <div class="item">11.8%</div>
+                                    <div class="item">41.2%</div>
+                                    <div class="item">47.1%</div>
+                                    <div class="item">0.41</div>
+                                    <div class="item">0.88</div>
+                                    <div class="item">13</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">16</div>
+                                    <div class="item">广州队</div>
+                                    <div class="item">17</div>
+                                    <div class="item">2</div>
+                                    <div class="item">6</div>
+                                    <div class="item">9</div>
+                                    <div class="item">2</div>
+                                    <div class="item">16</div>
+                                    <div class="item">-14</div>
+                                    <div class="item">11.8%</div>
+                                    <div class="item">35.3%</div>
+                                    <div class="item">52.9%</div>
+                                    <div class="item">0.12</div>
+                                    <div class="item">0.94</div>
+                                    <div class="item">12</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">17</div>
+                                    <div class="item">武汉队</div>
+                                    <div class="item">17</div>
+                                    <div class="item">2</div>
+                                    <div class="item">5</div>
+                                    <div class="item">10</div>
+                                    <div class="item">7</div>
+                                    <div class="item">17</div>
+                                    <div class="item">-10</div>
+                                    <div class="item">11.8%</div>
+                                    <div class="item">29.4%</div>
+                                    <div class="item">58.8%</div>
+                                    <div class="item">0.41</div>
+                                    <div class="item">1</div>
+                                    <div class="item">11</div>
+                                </div>
+                            
+                                <div class="row1 row2 color_2">
+                                    <div class="item">18</div>
+                                    <div class="item">河北队</div>
+                                    <div class="item">17</div>
+                                    <div class="item">0</div>
+                                    <div class="item">4</div>
+                                    <div class="item">13</div>
+                                    <div class="item">4</div>
+                                    <div class="item">25</div>
+                                    <div class="item">-21</div>
+                                    <div class="item">0.0%</div>
+                                    <div class="item">23.5%</div>
+                                    <div class="item">76.5%</div>
+                                    <div class="item">0.24</div>
+                                    <div class="item">1.47</div>
+                                    <div class="item">4</div>
+                                </div>
+                            
+                        </div>
+
+                        
+
+
+                    
+				</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			</div>
+
+			<div class="model-wrap">
+                    <div class="model-title" style=" border-bottom: 1px solid #e4e4e4;">
+                        <h2>中超历届积分榜数据</h2>
+
+                    </div>
+                    <div class="history-wrap">
+                        
+
+                            <a  href="https://www.sportspress.cn/database/integral_2022_378/">2022中超积分榜</a>
+
+
+                        
+
+                            <a  href="https://www.sportspress.cn/database/integral_2021_378/">2021中超积分榜</a>
+
+
+                        
+
+                            <a  href="https://www.sportspress.cn/database/integral_2020_378/">2020中超积分榜</a>
+
+
+                        
+
+                            <a  href="https://www.sportspress.cn/database/integral_2019_378/">2019中超积分榜</a>
+
+
+                        
+
+                            <a  href="https://www.sportspress.cn/database/integral_2018_378/">2018中超积分榜</a>
+
+
+                        
+
+                            <a  href="https://www.sportspress.cn/database/integral_2017_378/">2017中超积分榜</a>
+
+
+                        
+
+                            <a  href="https://www.sportspress.cn/database/integral_2016_378/">2016中超积分榜</a>
+
+
+                        
+
+                            <a  href="https://www.sportspress.cn/database/integral_2015_378/">2015中超积分榜</a>
+
+
+                        
+
+                            <a  href="https://www.sportspress.cn/database/integral_2014_378/">2014中超积分榜</a>
+
+
+                        
+
+                            <a  href="https://www.sportspress.cn/database/integral_2013_378/">2013中超积分榜</a>
+
+
+                        
+
+                            <a  href="https://www.sportspress.cn/database/integral_2012_378/">2012中超积分榜</a>
+
+
+                        
+
+                            <a  href="https://www.sportspress.cn/database/integral_2011_378/">2011中超积分榜</a>
+
+
+                        
+
+                            <a  href="https://www.sportspress.cn/database/integral_2010_378/">2010中超积分榜</a>
+
+
+                        
+
+                            <a  href="https://www.sportspress.cn/database/integral_2009_378/">2009中超积分榜</a>
+
+
+                        
+
+                            <a  href="https://www.sportspress.cn/database/integral_2008_378/">2008中超积分榜</a>
+
+
+                        
+
+                            <a  href="https://www.sportspress.cn/database/integral_2007_378/">2007中超积分榜</a>
+
+
+                        
+
+                            <a  href="https://www.sportspress.cn/database/integral_2006_378/">2006中超积分榜</a>
+
+
+                        
+
+                            <a  href="https://www.sportspress.cn/database/integral_2005_378/">2005中超积分榜</a>
+
+
+                        
+
+                            <a  href="https://www.sportspress.cn/database/integral_2004_378/">2004中超积分榜</a>
+
+
+                        
+
+                    </div>
+                </div>
+
+
+			<div class="model-wrap">
+				<div class="model-title">
+					<h2>关于2019-2020赛季英超积分榜说明介绍</h2>
+				</div>
+				<div class="explain-wrap">
+					<p><p>1、中超赛季中超积分规则是比赛分轮次进行，每轮每一个球队将进行一场比赛，获胜得3分、负得0分、平局各1分；最后球队积分排名要等2022赛季轮全部比赛完成才能最终确定。
+					</p>
+				</div>
+
+			</div>
+		</div>
+
+            <div class="side-wrap">
+                <div class="model2-wrap">
+                    <div class="model2-title">
+					<strong>中国超级联赛数据统计</strong>
+				</div>
+				    <div class="model2-list">
+					<a href="https://www.sportspress.cn/database/calendar_2022_378/" class="item">
+						<img src="https://www.sportspress.cn/skin/img/datamatch_icon1.png" alt="数据统计">
+						<p>2022中国超级联赛</p>
+					</a>
+					<a href="https://www.sportspress.cn/database/subleague_2022_378/" class="item">
+						<img src="https://www.sportspress.cn/skin/img/datamatch_icon1.png" alt="数据统计">
+						<p>2022中超赛程表</p>
+					</a>
+					<a href="https://www.sportspress.cn/database/integral_2022_378/" class="item">
+						<img src="https://www.sportspress.cn/skin/img/datamatch_icon1.png" alt="数据统计">
+						<p>2022中超积分榜</p>
+					</a>
+					<a href="https://www.sportspress.cn/database/archer_2022_378/" class="item">
+						<img src="https://www.sportspress.cn/skin/img/datamatch_icon1.png" alt="数据统计">
+						<p>2022中超射手榜</p>
+					</a>
+					<a href="https://www.sportspress.cn/database/team_2022_378/" class="item">
+						<img src="https://www.sportspress.cn/skin/img/datamatch_icon1.png" alt="数据统计">
+						<p>2022中超球队名单</p>
+					</a>
+
+                    <a href="https://www.sportspress.cn/database/schedule_2022_378/" class="item">
+						<img src="https://www.sportspress.cn/skin/img/datamatch_icon1.png" alt="数据统计">
+						<p>2022中超进球总数及单双统计</p>
+					</a>
+
+				</div>
+                </div>
+
+                <div class="model2-wrap">
+                    <div class="model2-title">
+                        <strong>中超各赛季数据回顾</strong>
+                    </div>
+                    <div class="model2-tag model2-tag2">
+                        
+                        <a href="https://www.sportspress.cn/database/schedule_2022_378/">2022</a>
+                        
+                        <a href="https://www.sportspress.cn/database/schedule_2022_378/">2021</a>
+                        
+                        <a href="https://www.sportspress.cn/database/schedule_2022_378/">2020</a>
+                        
+                        <a href="https://www.sportspress.cn/database/schedule_2022_378/">2019</a>
+                        
+                        <a href="https://www.sportspress.cn/database/schedule_2022_378/">2018</a>
+                        
+                        <a href="https://www.sportspress.cn/database/schedule_2022_378/">2017</a>
+                        
+                        <a href="https://www.sportspress.cn/database/schedule_2022_378/">2016</a>
+                        
+                        <a href="https://www.sportspress.cn/database/schedule_2022_378/">2015</a>
+                        
+                        <a href="https://www.sportspress.cn/database/schedule_2022_378/">2014</a>
+                        
+                        <a href="https://www.sportspress.cn/database/schedule_2022_378/">2013</a>
+                        
+                        <a href="https://www.sportspress.cn/database/schedule_2022_378/">2012</a>
+                        
+                        <a href="https://www.sportspress.cn/database/schedule_2022_378/">2011</a>
+                        
+                        <a href="https://www.sportspress.cn/database/schedule_2022_378/">2010</a>
+                        
+                        <a href="https://www.sportspress.cn/database/schedule_2022_378/">2009</a>
+                        
+                        <a href="https://www.sportspress.cn/database/schedule_2022_378/">2008</a>
+                        
+                        <a href="https://www.sportspress.cn/database/schedule_2022_378/">2007</a>
+                        
+                        <a href="https://www.sportspress.cn/database/schedule_2022_378/">2006</a>
+                        
+                        <a href="https://www.sportspress.cn/database/schedule_2022_378/">2005</a>
+                        
+                        <a href="https://www.sportspress.cn/database/schedule_2022_378/">2004</a>
+                        
+
+                    </div>
+                </div>
+
+    
+
+
+    <div class="model2-wrap">
+				<div class="model2-title">
+					<strong>足球视频集锦</strong>
+				</div>
+				<div class="model2-tag">
+					<a href="https://www.sportspress.cn/video/best/">十佳球</a>
+					<a href="https://www.sportspress.cn/video/header/">头球破门</a>
+					<a href="https://www.sportspress.cn/video/far/">远射破门</a>
+					<a href="https://www.sportspress.cn/video/free/">任意球破门</a>
+					<a href="https://www.sportspress.cn/video/barb/">倒勾破门</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+    <div class="mt40"></div>
+
+	<div class="newfooter">
+		<div class="content clearfix">
+			<div class="fl">
+				<div class="footlogo">
+					<img src="https://www.sportspress.cn/skin/images/footerlogo.png">
+				</div>
+				<div class="footshare">
+					<span>分享本站到</span>
+					<a target="_blank" rel="nofollow"
+						href="https://service.weibo.com/share/share.php?url=https://www.sportspress.cn&amp;sharesource=weibo&amp;title=风暴体育&amp;pic=https://www.sportspress.cn/skin/images/logo.png&amp;appkey=足球,篮球,电竞">
+						<img class="nf_img1" src="https://www.sportspress.cn/skin/images/nf_weibo_icon1.png">
+						<img class="nf_img2" src="https://www.sportspress.cn/skin/images/nf_weibo_icon2.png">
+					</a>
+					<a v-href="https://www.sportspress.cn" class="share_wx" rel="nofollow">
+						<img class="nf_img1" src="https://www.sportspress.cn/skin/images/nf_weixin_icon1.png">
+						<img class="nf_img2" src="https://www.sportspress.cn/skin/images/nf_weixin_icon2.png">
+					</a>
+					<a target="_blank" rel="nofollow"
+						href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://www.sportspress.cn&amp;sharesource=qzone&amp;title=风暴体育&amp;pics=https://www.sportspress.cn/skin/images/logo.png&amp;summary=足球,篮球,电竞">
+						<img class="nf_img1" src="https://www.sportspress.cn/skin/images/nf_qq_icon1.png">
+						<img class="nf_img2" src="https://www.sportspress.cn/skin/images/nf_qq_icon2.png">
+					</a>
+				</div>
+			</div>
+			<div class="fl newlinks">
+				<dl>
+					<dt><a href="https://www.sportspress.cn/zq/">风暴足球</a></dt>
+					<dd><a href="https://www.sportspress.cn/premierleague/" rel="nofollow">英超</a></dd>
+					<dd><a href="https://www.sportspress.cn/uefa/" rel="nofollow">欧冠</a></dd>
+					<dd><a href="https://www.sportspress.cn/laliga/" rel="nofollow">西甲</a></dd>
+					<dd><a href="https://www.sportspress.cn/bundesliga/" rel="nofollow">德甲</a></dd>
+					<dd><a href="https://www.sportspress.cn/seriea/" rel="nofollow">意甲</a></dd>
+					<dd><a href="https://www.sportspress.cn/gjzq/" rel="nofollow">国际足球</a></dd>
+					<dd><a href="https://www.sportspress.cn/csl/" rel="nofollow">中超</a></dd>
+					<dd><a href="https://www.sportspress.cn/zqtj/" rel="nofollow">足球图集</a></dd>
+				</dl>
+				<dl>
+					<dt><a href="https://www.sportspress.cn/lq/">风暴篮球</a></dt>
+					<dd><a href="https://www.sportspress.cn/nba/" rel="nofollow">NBA</a></dd>
+					<dd><a href="https://www.sportspress.cn/cba/" rel="nofollow">CBA</a></dd>
+					<dd><a href="https://www.sportspress.cn/nl/" rel="nofollow">女篮</a></dd>
+					<dd><a href="https://www.sportspress.cn/fiba/" rel="nofollow">国际篮球</a></dd>
+					<dd><a href="https://www.sportspress.cn/lqtj/" rel="nofollow">篮球图集</a></dd>
+				</dl>
+				<dl style="width: 120px;">
+					<dt><a href="https://www.sportspress.cn/dj/">风暴电竞</a></dt>
+
+					<dd><a href="https://www.sportspress.cn/dota/" rel="nofollow">DOTA2</a></dd>
+
+					<dd><a href="https://www.sportspress.cn/lol/" rel="nofollow">英雄联盟</a></dd>
+
+					<dd><a href="https://www.sportspress.cn/pubg/" rel="nofollow">绝地求生</a></dd>
+
+					<dd><a href="https://www.sportspress.cn/ow/" rel="nofollow">守望先锋</a></dd>
+
+					<dd><a href="https://www.sportspress.cn/king/" rel="nofollow">王者荣耀</a></dd>
+
+					<dd><a href="https://www.sportspress.cn/djtj/" rel="nofollow">电竞图集</a></dd>
+
+				</dl>
+				<dl>
+					<dt>风暴专题</dt>
+					<dd><a href="https://www.sportspress.cn/euro2020/" rel="nofollow">欧洲杯</a></dd>
+					<dd><a href="https://www.sportspress.cn/copaamerica/" rel="nofollow">美洲杯</a></dd>
+					<dd><a href="https://www.sportspress.cn/unl/" rel="nofollow">欧国联</a></dd>
+					<dd><a href="https://www.sportspress.cn/qatar2022/" rel="nofollow">世界杯</a></dd>
+				</dl>
+				<dl>
+					<dt><a href="https://www.sportspress.cn/swhz.html" rel="nofollow" target="_blank">联系我们</a></dt>
+					<dd><a href="https://www.sportspress.cn/aboutus.html" rel="nofollow" target="_blank">关于我们</a></dd>
+					<dd><a href="https://www.sportspress.cn/sitemap.xml" target="_blank">网站地图</a></dd>
+					<dd><a href="https://www.sportspress.cn/k.html" target="_blank">热门标签</a></dd>
+					<dd><a href="https://www.sportspress.cn/sitemap.txt" target="_blank">sitemap.txt</a></dd>
+				</dl>
+			</div>
+		</div>
+	</div>
+	<div class="footer2">
+		<div class="infooter">
+			<div class="xuke clearfix">
+				<div class="it fl">
+					<img src="https://www.sportspress.cn/skin/images/dximg.png"><span>增值电信业务经营许可证：冀B2-20190652</span>
+				</div>
+				<div class="it fl">
+					<img src="https://www.sportspress.cn/skin/images/blimg.png"><span>违法不良信息举报电话：0335-8087274</span>
+				</div>
+			</div>
+			<div class="cpr">
+				<p>Copyright © 1998 - 2019 All Rights Reserved. 风暴体育 版权所有 备案号：<a href="https://beian.miit.gov.cn/"
+						target="_blank;" rel="nofollow">冀ICP备18037400号-8</a></p>
+			</div>
+		</div>
+	</div>
+	<script src="https://www.sportspress.cn/skin/js/jquery.SuperSlide.2.1.3.js" type="text/javascript" charset="utf-8"></script>
+	<script src="https://www.sportspress.cn/skin/js/swiper.min.js"></script>
+	<script src="https://www.sportspress.cn/skin/js/zlk.js" type="text/javascript" charset="utf-8"></script>
+	<script src="https://www.sportspress.cn/skin/js/index.js" type="text/javascript" charset="utf-8"></script>
+	<script src="https://www.sportspress.cn/skin/js/common.js" type="text/javascript" charset="utf-8"></script>
+
+
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    <script>
+        $('.integral-tab .item').click(function(){
+             $(this).addClass('on').siblings().removeClass('on');
+            $('.int-cont .integral-content').eq($(this).index()).addClass('on').siblings().removeClass("on")
+        })
+    </script>
+
+
+
+    
+
+
+
+
+
+
+</body>
+
+</html>
